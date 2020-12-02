@@ -1,0 +1,16 @@
+[
+  {
+    "type": "Burger",
+
+    "id": "0",
+    "bk": "London broil",
+    "br": "visa",
+    "ty": "credit",
+    "nm": "1234 5678 1234 5678",
+    "co": 4294924066,
+    "txt": "circles",
+    "bl": "Rs 150",
+    "img": "assets/images/steak.png",
+    "desc": "A steak is a meat generally sliced across the muscle fibers, potentially including a bone.It is normally grilled, though can also be pan-fried. It is often grilled in an attempt to replicate the flavor of steak cooked over the glowing coals of an open fire."
+  }
+]
