@@ -1,0 +1,3281 @@
+{
+  "status": "OK",
+  "summary": {
+    "route": [
+      {
+        "location": {
+          "lat": 18.88901,
+          "lng": 73.49941
+        },
+        "address": "Borivali, Mawal, MH, India"
+      },
+      {
+        "location": {
+          "lat": 12.8302,
+          "lng": 77.86623
+        },
+        "address": "Banglore, Hosur Sub-District, TN, India"
+      }
+    ],
+    "rates": {
+      "USD": 1,
+      "CAD": 1.287975,
+      "MXN": 19.89892,
+      "INR": 73.81765,
+      "AUD": 1.343755,
+      "GBP": 0.74105,
+      "EUR": 0.822798
+    },
+    "currency": "INR",
+    "countries": [
+      "IND"
+    ],
+    "departure_time": 1607028702,
+    "fuelPrice": {
+      "value": 70,
+      "currency": "INR"
+    },
+    "fuelEfficiency": {
+      "city": 23.4,
+      "hwy": 30,
+      "units": "mpg"
+    },
+    "vehicleType": "2AxlesAuto",
+    "share": {
+      "name": "mawal,mh-hosur sub-district,tn",
+      "prefix": "mawal%2Cmh-hosur%20sub-district%2Ctn",
+      "uuid": "11f6d3ef-0a34-4c0f-af82-297052e381e4"
+    },
+    "source": "HERE"
+  },
+  "routes": [
+    {
+      "summary": {
+        "hasTolls": true,
+        "diffs": {
+          "cheapest": 0,
+          "fastest": 0
+        },
+        "url": "https://www.google.com/maps/?saddr=18.889009,73.4994086&daddr=18.2115769,73.9316905+to:17.1130729,74.1999865+to:16.2492514,74.4790006+to:16.2487042,74.4803309+to:15.0698948,75.1574385+to:14.3848908,76.0746145+to:14.3751061,76.1087322+to:12.7353752,77.8294659+to:12.8302,77.8662337&via=1,2,3,4,5,6,7,8",
+        "distance": {
+          "text": "594.8 mi",
+          "metric": "957.1 km",
+          "value": 957055
+        },
+        "duration": {
+          "text": "20 h 19 min",
+          "value": 73155
+        },
+        "name": "AH47",
+        "note": []
+      },
+      "costs": {
+        "fuel": 5936,
+        "cash": 1254
+      },
+      "tolls": [
+        {
+          "id": 9232123,
+          "lat": 18.70065,
+          "lng": 73.69225,
+          "name": "DehuRd",
+          "road": "Old Mumbai - Pune Hwy",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 120,
+          "return": 180,
+          "monthly": 3960,
+          "height": null,
+          "arrival": {
+            "distance": 33635,
+            "time": "2020-12-03T22:15:39+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                73.69225,
+                18.70065
+              ]
+            }
+          },
+          "nhai": null,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9101440,
+          "lat": 18.33145,
+          "lng": 73.85195,
+          "name": "Khedshivapur",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 29,
+          "return": 44,
+          "monthly": 870,
+          "height": null,
+          "arrival": {
+            "distance": 83377,
+            "time": "2020-12-03T23:12:56+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                73.85195,
+                18.33145
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100560,
+          "lat": 17.81165,
+          "lng": 73.96935,
+          "name": "Anewadi",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 65,
+          "return": 95,
+          "monthly": 2155,
+          "height": null,
+          "arrival": {
+            "distance": 153252,
+            "time": "2020-12-04T00:37:46+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                73.96935,
+                17.81165
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102560,
+          "lat": 17.36565,
+          "lng": 74.12275,
+          "name": "Tasawade",
+          "road": "AH47",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 75,
+          "return": null,
+          "monthly": null,
+          "height": null,
+          "arrival": {
+            "distance": 207949,
+            "time": "2020-12-04T01:39:56+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                74.12275,
+                17.36565
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102570,
+          "lat": 16.87675,
+          "lng": 74.29835,
+          "name": "Kini",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 75,
+          "return": null,
+          "monthly": null,
+          "height": null,
+          "arrival": {
+            "distance": 267527,
+            "time": "2020-12-04T02:44:33+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                74.29835,
+                16.87675
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100090,
+          "lat": 16.54225,
+          "lng": 74.31835,
+          "name": "Kognoli",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 75,
+          "return": 110,
+          "monthly": 2425,
+          "height": null,
+          "arrival": {
+            "distance": 307587,
+            "time": "2020-12-04T03:27:56+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                74.31835,
+                16.54225
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100080,
+          "lat": 16.14335,
+          "lng": 74.51695,
+          "name": "Hattargi",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 30,
+          "return": 45,
+          "monthly": 945,
+          "height": null,
+          "arrival": {
+            "distance": 361266,
+            "time": "2020-12-04T04:19:11+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                74.51695,
+                16.14335
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100060,
+          "lat": 15.76305,
+          "lng": 74.64785,
+          "name": "Hirebagewadi",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 95,
+          "return": 140,
+          "monthly": 3165,
+          "height": null,
+          "arrival": {
+            "distance": 413624,
+            "time": "2020-12-04T05:20:51+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                74.64785,
+                15.76305
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103210,
+          "lat": 15.48875,
+          "lng": 74.96935,
+          "name": "Narendra",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 45,
+          "return": 45,
+          "monthly": null,
+          "height": null,
+          "arrival": {
+            "distance": 463691,
+            "time": "2020-12-04T06:19:48+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                74.96935,
+                15.48875
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103160,
+          "lat": 15.31895,
+          "lng": 75.14005,
+          "name": "Gabbur",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 45,
+          "return": null,
+          "monthly": null,
+          "height": null,
+          "arrival": {
+            "distance": 493204,
+            "time": "2020-12-04T06:54:34+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.14005,
+                15.31895
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100050,
+          "lat": 14.91005,
+          "lng": 75.27985,
+          "name": "Bankapur",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 55,
+          "return": 80,
+          "monthly": 1795,
+          "height": null,
+          "arrival": {
+            "distance": 544461,
+            "time": "2020-12-04T07:54:08+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.27985,
+                14.91005
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100291,
+          "lat": 14.55685,
+          "lng": 75.72815,
+          "name": "Chalageri",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 75,
+          "return": 115,
+          "monthly": 2545,
+          "height": null,
+          "arrival": {
+            "distance": 609784,
+            "time": "2020-12-04T09:18:41+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.72815,
+                14.55685
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102950,
+          "lat": 14.37565,
+          "lng": 76.10675,
+          "name": "Hebbalu",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 60,
+          "return": 85,
+          "monthly": 1935,
+          "height": null,
+          "arrival": {
+            "distance": 659373,
+            "time": "2020-12-04T10:18:57+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                76.10675,
+                14.37565
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102670,
+          "lat": 14.05395,
+          "lng": 76.56075,
+          "name": "Guilalu",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 65,
+          "return": 100,
+          "monthly": 2190,
+          "height": null,
+          "arrival": {
+            "distance": 724333,
+            "time": "2020-12-04T11:18:00+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                76.56075,
+                14.05395
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102690,
+          "lat": 13.61285,
+          "lng": 76.95545,
+          "name": "Karjeevanhalli",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 80,
+          "return": 125,
+          "monthly": 2715,
+          "height": null,
+          "arrival": {
+            "distance": 793213,
+            "time": "2020-12-04T12:20:35+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                76.95545,
+                13.61285
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "type": "ticketSystem2",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 35,
+          "return": null,
+          "monthly": null,
+          "start": {
+            "id": 9102710,
+            "lat": 13.30205,
+            "lng": 77.16195,
+            "name": "Kaythsandra/Tumkur/Chokkanahalli",
+            "road": "Bengaluru - Mumbai Hwy",
+            "state": "Karnataka",
+            "arrival": {
+              "distance": 835558,
+              "time": "2020-12-04T13:01:22+00:00"
+            },
+            "point": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  77.16195,
+                  13.30205
+                ]
+              }
+            }
+          },
+          "end": {
+            "id": 9102740,
+            "lat": 13.11475,
+            "lng": 77.37465,
+            "name": "Neelamangala - Tumkur /Kulumepalya",
+            "road": "Tumkur Main Rd",
+            "state": "Karnataka",
+            "arrival": {
+              "distance": 867066,
+              "time": "2020-12-04T13:37:50+00:00"
+            },
+            "point": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  77.37465,
+                  13.11475
+                ]
+              }
+            }
+          },
+          "height": null,
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100280,
+          "lat": 13.09105,
+          "lng": 77.40015,
+          "name": "Banglore - Neelamangla",
+          "road": "Bengaluru - Mangaluru Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 20,
+          "return": 30,
+          "monthly": 660,
+          "height": null,
+          "arrival": {
+            "distance": 871064,
+            "time": "2020-12-04T13:42:15+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                77.40015,
+                13.09105
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "type": "ticketSystem1",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 180,
+          "return": null,
+          "monthly": null,
+          "start": {
+            "id": 9226094,
+            "lat": 13.04245,
+            "lng": 77.47575,
+            "name": "Tumkur Rd",
+            "road": "Nice Rd",
+            "state": "Karnataka",
+            "arrival": {
+              "distance": 881947,
+              "time": "2020-12-04T13:51:30+00:00"
+            },
+            "point": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  77.47575,
+                  13.04245
+                ]
+              }
+            }
+          },
+          "end": {
+            "id": 9226080,
+            "lat": 12.85915,
+            "lng": 77.65595,
+            "name": "Hosur Rd",
+            "road": "Nice Rd",
+            "state": "Karnataka",
+            "arrival": {
+              "distance": 920583,
+              "time": "2020-12-04T14:22:50+00:00"
+            },
+            "point": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  77.65595,
+                  12.85915
+                ]
+              }
+            }
+          },
+          "height": null,
+          "nhai": null,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103121,
+          "lat": 12.77695,
+          "lng": 77.77715,
+          "name": "Attibele (BETL)",
+          "road": "Chennekothapalli Rd",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 30,
+          "return": 45,
+          "monthly": 870,
+          "height": null,
+          "arrival": {
+            "distance": 937851,
+            "time": "2020-12-04T14:39:55+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                77.77715,
+                12.77695
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        }
+      ],
+      "directions": [
+        {
+          "position": {
+            "latitude": 18.889009,
+            "longitude": 73.4994086
+          },
+          "maneuver": "forward",
+          "html_instructions": "Head <span class=\"heading\">southeast</span>. <span class=\"distance-description\">Go for <span class=\"length\">10.2 mi</span>.</span>",
+          "distance": 16479,
+          "duration": 2639,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.8099563,
+            "longitude": 73.6066711
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 930,
+          "duration": 164,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.8018024,
+            "longitude": 73.6073792
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.5 mi</span>.</span>",
+          "distance": 3997,
+          "duration": 666,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.7682962,
+            "longitude": 73.607111
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> toward <span class=\"sign\">Golden Quadrilateral/AH47</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.8 mi</span>.</span>",
+          "distance": 2909,
+          "duration": 496,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.7488019,
+            "longitude": 73.6221635
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">8.0 mi</span>.</span>",
+          "distance": 12808,
+          "duration": 1466,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.6868644,
+            "longitude": 73.7206864
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">8.5 mi</span>.</span>",
+          "distance": 13623,
+          "duration": 798,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.5717654,
+            "longitude": 73.7648571
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Banglore Mumbai Highway</span> <span class=\"number\">(AH47)</span> toward <span class=\"sign\"><span lang=\"en\">Satara</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">11.3 mi</span>.</span>",
+          "distance": 18256,
+          "duration": 1142,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.4506261,
+            "longitude": 73.8312149
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">17.4 mi</span>.</span>",
+          "distance": 28061,
+          "duration": 2144,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.2309639,
+            "longitude": 73.9139557
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.8 mi</span>.</span>",
+          "distance": 2852,
+          "duration": 174,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.2115769,
+            "longitude": 73.9315939
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">36 ft</span>.</span>",
+          "distance": 11,
+          "duration": 7,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.2115769,
+            "longitude": 73.9316905
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">41.6 mi</span>.</span>",
+          "distance": 66994,
+          "duration": 4853,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.7052188,
+            "longitude": 74.0262222
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.4 mi</span>.</span>",
+          "distance": 617,
+          "duration": 77,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.6997149,
+            "longitude": 74.0257931
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.4 mi</span>.</span>",
+          "distance": 2196,
+          "duration": 188,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.6802742,
+            "longitude": 74.0224886
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">42.6 mi</span>.</span>",
+          "distance": 68555,
+          "duration": 4439,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.1130729,
+            "longitude": 74.1999865
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">42.2 mi</span>.</span>",
+          "distance": 67980,
+          "duration": 4447,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 16.5536392,
+            "longitude": 74.3181539
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">25.4 mi</span>.</span>",
+          "distance": 40933,
+          "duration": 2154,
+          "note": [
+            {
+              "type": "info",
+              "code": "adminDivisionChange",
+              "text": "Entering <span class=\"admin_division\">KA</span>"
+            },
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 16.2492514,
+            "longitude": 74.4790006
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">509 ft</span>.</span>",
+          "distance": 155,
+          "duration": 7,
+          "note": [
+            {
+              "type": "info",
+              "code": "adminDivisionChange",
+              "text": "Entering <span class=\"admin_division\">MH</span>"
+            },
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 16.2487042,
+            "longitude": 74.4803309
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">90.8 mi</span>.</span>",
+          "distance": 146065,
+          "duration": 10321,
+          "note": [
+            {
+              "type": "info",
+              "code": "adminDivisionChange",
+              "text": "Entering <span class=\"admin_division\">KA</span>"
+            },
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 15.3178167,
+            "longitude": 75.1419139
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.1 mi</span>.</span>",
+          "distance": 205,
+          "duration": 12,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 15.316819,
+            "longitude": 75.1434803
+          },
+          "maneuver": "right",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from roundabout onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">17.5 mi</span>.</span>",
+          "distance": 28085,
+          "duration": 1780,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 15.0698948,
+            "longitude": 75.1574385
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">74.2 mi</span>.</span>",
+          "distance": 119381,
+          "duration": 9272,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 14.4382453,
+            "longitude": 75.9538615
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">9.1 mi</span>.</span>",
+          "distance": 14662,
+          "duration": 951,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 14.3848908,
+            "longitude": 76.0746145
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.4 mi</span>.</span>",
+          "distance": 3873,
+          "duration": 249,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 14.3751061,
+            "longitude": 76.1087322
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">105 mi</span>.</span>",
+          "distance": 168858,
+          "duration": 9205,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.3507919,
+            "longitude": 77.123723
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">14.9 mi</span>.</span>",
+          "distance": 24046,
+          "duration": 1781,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.1978846,
+            "longitude": 77.2718561
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Bengaluru Pune National Highway</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">6.2 mi</span>.</span>",
+          "distance": 10020,
+          "duration": 502,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.1440043,
+            "longitude": 77.3447263
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Bengaluru Pune National Highway</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.2 mi</span>.</span>",
+          "distance": 5162,
+          "duration": 490,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.1110239,
+            "longitude": 77.3779857
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Bengaluru Pune National Highway</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.3 mi</span>.</span>",
+          "distance": 5313,
+          "duration": 324,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.0839336,
+            "longitude": 77.4156439
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span> toward <span class=\"sign\"><span lang=\"en\">Hyderabad</span>/<span lang=\"en\">Chennai</span>/<span lang=\"en\">Bangalore</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">4.1 mi</span>.</span>",
+          "distance": 6600,
+          "duration": 302,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.057884,
+            "longitude": 77.4700606
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Service Road</span> toward <span class=\"sign\"><span lang=\"en\">Hosur</span>/<span lang=\"en\">Exhibition Center</span>/<span lang=\"en\">Jindal</span>/<span lang=\"en\">Mysore Road</span>/<span lang=\"en\">Kanakapura Road</span>/<span lang=\"en\">NH-209</span>/<span lang=\"en\">Electronic City</span>/<span lang=\"en\">NH-7</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 442,
+          "duration": 42,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.0569398,
+            "longitude": 77.4739981
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Nice Road</span> toward <span class=\"sign\"><span lang=\"en\">Hosur Road</span>/<span lang=\"en\">Kanakapura Road</span>/<span lang=\"en\">Link Road ( P. E. S College )</span>/<span lang=\"en\">Mysore Road</span>/<span lang=\"en\">Magadi Road</span>/<span lang=\"en\">Bannerughatta Road</span>/<span lang=\"en\">B.I.E.C</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">25.2 mi</span>.</span>",
+          "distance": 40495,
+          "duration": 1969,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8595293,
+            "longitude": 77.6547897
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> toward <span class=\"sign\">Nice Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 360,
+          "duration": 28,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8584349,
+            "longitude": 77.6578474
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> onto <span class=\"next-street\">Nice Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 356,
+          "duration": 27,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8578663,
+            "longitude": 77.6610661
+          },
+          "maneuver": "forward",
+          "html_instructions": "Take the exit. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 544,
+          "duration": 43,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8565145,
+            "longitude": 77.6641881
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">135 ft</span>.</span>",
+          "distance": 41,
+          "duration": 12,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.8562248,
+            "longitude": 77.6644242
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">46 ft</span>.</span>",
+          "distance": 14,
+          "duration": 5,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.8561175,
+            "longitude": 77.6643384
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Hosur Main Road</span> <span class=\"number\">(AH43/AH45)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.4 mi</span>.</span>",
+          "distance": 7077,
+          "duration": 409,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8041685,
+            "longitude": 77.7009666
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Hosur Main Road</span> <span class=\"number\">(AH43/AH45)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.9 mi</span>.</span>",
+          "distance": 7957,
+          "duration": 403,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.7796638,
+            "longitude": 77.7677965
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Hosur Main Road</span> <span class=\"number\">(AH43/AH45)</span> toward <span class=\"sign\"><span lang=\"en\">Hosur</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">1.2 mi</span>.</span>",
+          "distance": 1990,
+          "duration": 213,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.7725613,
+            "longitude": 77.784394
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Bangalore Road</span> <span class=\"number\">(AH43/AH45)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.7 mi</span>.</span>",
+          "distance": 5905,
+          "duration": 368,
+          "note": [
+            {
+              "type": "info",
+              "code": "adminDivisionChange",
+              "text": "Entering <span class=\"admin_division\">TN</span>"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.7372849,
+            "longitude": 77.8236294
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">26 ft</span>.</span>",
+          "distance": 8,
+          "duration": 13,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.7373385,
+            "longitude": 77.8236723
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.4 mi</span>.</span>",
+          "distance": 671,
+          "duration": 76,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.7353752,
+            "longitude": 77.8294659
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Bangalore Road</span> <span class=\"number\">(NH-648)</span>. <span class=\"distance-description\">Go for <span class=\"length\">7.2 mi</span>.</span>",
+          "distance": 11569,
+          "duration": 1067,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.8302,
+            "longitude": 77.8662337
+          },
+          "maneuver": "forward",
+          "html_instructions": "Arrive at <span class=\"street\">Hosur Bagalur Road</span> <span class=\"number\">(NH-648)</span>.",
+          "distance": 0,
+          "duration": 0,
+          "note": []
+        }
+      ],
+      "polyline": "ighrBijr_MFE@GCQEKUc@ISEOCYL_ADm@Gg@S[Me@AWBiBAYOi@S_@Mi@IS[OaBGUGGIKkAIISKu@Uw@e@u@]OQKQGWA{CMoA]m@e@e@SYEQBc@bAsCBWEi@Ii@@[DWf@_ANq@r@oIP{Cp@wFKuA?e@Hm@Rc@Z]b@S`BUZGhAa@f@K`@CvAL`@JbAPnAH`EDfBA\\IXQpAw@XWZ]n@}@b@oA`@s@bAoAjAmBVU^Q`AWn@_@RUzA_DT_Ax@sEBe@Jk@Tc@z@m@b@c@b@u@~@qBf@y@p@}@bAcBpB}C`@w@`@eA^mAb@sBZyCRcATy@dCoGlBeDvA}Bx@cANMn@g@hBoAh@Y^I\\ENEVWXm@pAcBHSLaBd@mAl@}@`C_BfBoAf@UfA]bBG^GHEVe@f@yAVg@\\WbAk@NQJWDU@w@Ky@SgA@[T[fAu@tAgBjCwBb@O~BYf@Id@Or@G|@Lh@RhAj@TFj@ErAkAr@[vCe@rBg@lKoD`@a@ZmBRgBRq@l@w@j@g@zAq@XOXSf@e@\\UnAa@h@WlAcA~AgBzAiC\\_@ZWn@a@nAo@ZMvA_APUJ_@B{@RgCEWeAgAk@w@{@w@K]?_@b@yCd@uB`@qCNk@Tg@`@i@tCmCn@}@rA{Cf@e@`@e@JQXQfAmCZm@l@o@FUZo@j@y@nAuAb@w@V]fAeAbAq@~@g@`@_@`AuAJSDY@YEcAL_APg@f@m@j@Wn@Ox@KnCC\\IVIPUH_@L_BVmARk@V_@TO`@OV?TCvAe@pAaAr@[\\Gp@I`@@^GhB{@tAa@\\GbAO~@GtBKj@GfAC^SVSZ]LUn@s@t@a@ZGv@KjGY`@KPMzAyBdAiBj@sBJWX_@t@i@x@e@RWTq@Di@K_BO{ABoA\\wBZeA`@_ADU@WOi@yA}AWeAI}@A]F_AVqBAs@Ku@@[T_DFk@x@kB`@s@Za@n@k@^a@hAeBNOXQhAi@b@YJCd@[RObAiArAcERc@R[d@c@fD_DLUr@wCbBcEZ_@`@QVO\\M\\QZe@Ja@JcAF[f@yAV}AN[h@u@Xi@HWLq@L]rBaCP_@Py@B{ADWBs@Nc@rAoBnDwDTa@`AeCXm@l@aBvAsCb@uB^mAJc@FqAGgBHkAb@}AZu@tAqBd@{@v@_AVUz@g@|@{@dB_Cj@_A`AeAp@k@x@g@fEaCt@]xBq@PKl@o@t@gAl@s@z@_BfAqCh@s@l@cATg@z@{@~CmCjBoAlBgAZOJKTKRWN]^]XQPSZe@Vi@NOdCgBV]DUDu@FeBPs@R[XYt@k@t@Wv@ShA]|@]b@SpAq@z@a@`Eu@nDe@xBq@v@QPART`@H|@IbAQxDE~@G|A[h@Eb@GPI^IP?j@QjAG`DHFEjAGPMt@Hj@B`A?rAGRIFGFEn@A|E@RG~MvKxBfBVV|BdBt@RxAHnIHbC?pEGvCMz@GdC[zBSvAOnIo@|D_@jDUfBElCDlDNpBLrA`@bDzAVNx@Vf@@bCU`@K`B}@vAs@VG^QtC}A`Ao@`Ay@|C}Bt@a@dBu@|BmAhCoA|@_@`@OVEZAT@vD`@jCTtOl@pCD^Dl@BfEJvAJ|C^h@E|@Qp@Y^[xBwBr@{@rIuKd@w@Zm@f@mAb@o@h@o@bAuAZq@p@kBb@{@d@k@TOn@[h@[RUl@mAl@eBv@uArB_Cx@m@~AcAzBkAnAw@b@Qd@M~Fy@bAKfDEdIGp@gAf@eA|@aCdAmDR_Al@aBTe@XU\\Sj@Hr@RjBc@zAIp@@bANd@?^Ij@Wh@e@hAs@zAo@n@Mb@mBjA{F`A{DnCeGrFwKxB{Dp@aAfBsB~AkAlBgAtOeIz@o@x@w@t@}@rGwJdByCr@}Av@eDzAsKvBkNnBwLp@cDTu@Te@Zc@tAaBdHaIrCqCpBaBhAcA|AiB^w@l@}@lAqB`B{Bp@cAz@eAx@kAbEiHnAuBhAcCXw@dGcOrDqJf@eAbJaTtAkClDmHbF_KvGgMx@qAt@wA\\g@NW|BiDf@o@bB}BdKiMrH{JtIuLpCkD|CsCbBcBXQlBy@j@_@dP_NpIqIhFoF|B}BnFwFbCmDPa@Hc@~@qEPOvAkI@e@`G{]|@yFdAmHl@_KZcMDmDDuAPaBT_A\\_A^w@hAoCl@iAxAqBvBkCdB}BNQtD_FxEiGlB_CrAiBlJ}LvAoB|AoBnAcBdFwGbBsBh@w@^HNAlIyBzTeGrTwFfL}CzBi@v@UdFuA|MoDbEaA|F_BfDcAv@S`A[fEgAvEwAv@QbOyEnJmCzCeAr`@kLnA[nDkAvBm@|NqEtR}F~L}D|DeAlGgBdCo@h\\mJdAWfCy@~Ac@nAc@~DoAr@MpGeBtSgG~DoAdAWbPsEbBi@r@YvIgCtPqFvF_BjQuFpGiBrL{Cv@WvPmE|GqBp@KhBg@rHmBdXqHnCs@tGmBfG{AfRaFzNgEfBa@hGcBh@IbBc@bOgEzBk@p@UhA]`QwEz@YxCw@lC}@tg@aNVKlL}CjD{@`GgBhEmAfJ{Bbd@aMvBe@hImB|C}@rBc@nJaCnZqHjTsFjHcBh@Kp@UrFaBzAu@n@c@\\[tLkNz@qAtGwKd@q@p@u@fAw@n@]jAi@XIvAWrAKrA?t@HrBXfKvB|@LzGv@~B`@jAVpIfCzCbApB|@nAv@z@t@b@d@zApBb@p@P`@p@dBrD~Mz@nBh@fA`BlBhAbAvFlEtHjFv@b@jA^n@N`Dh@pC\\v@Fz@JxCPzBDvCC|AItAI`CWjBYt@QhBi@r@Yt@]~CgBxAcAnAaAf@e@~AwBvCgE~AyBf@y@t@yAn@kBn@qCd@oDl@mE|@yHbBqMpAcJVwCB{CAwAIgDK_CKsEGu@GcB@kBDoA\\wB^sA|@kBb@q@n@w@lB_BrBeAf@Q`Bc@`BY`AGbC@~B`@`Bb@n@VjBdA`JdHtD|CpAbAfA~@~@r@lAt@zAf@pBb@VBpAHrA?hAIxASdAWx@Yx@a@\\UxAiArFyDfBsBrPkXVg@tCyEjKoP`GuJfAkBh@u@nCeDtA{AhPuNtD}CxEyDbPyNx@k@fCsB|AwA|DcDpEeE|CwCfQmOxCkCxCiCvHgG`A}@zF{E|D_E|AoB~A}BtDiGZ_@jAiARQnBmAfFyClMuIrEiDx@s@jOoL~A}A|AuBfFkIbBoBv@s@d@_@pEiCtPmK`FkDxJwHh@_@h@YlAi@rA[bBWb@Cr@Er@?^BvALvA^bBp@~MzDtBf@nBj@^Df@?~@Cz@KlBs@dAs@t@_AdFoJXc@\\]hA{@dAk@x@_@v@SrEe@pCe@~@Yr@[nC{AzDeBzBqA|@k@lEgEj@o@rAgA|@k@pBw@~Aa@dGkAfE_AnEu@jBSxBMbCI`DCtHXxBPpFTfDAvRSp@ChAGvBA|BEzBUxUwEnC_@lOeEzVcQ|B{CjDeFfC_D`CoBdAm@`Aa@~DcApAM|AEvBHtOxB~CV`ERdGP|DNtAJ~Gl@rBLxBFrA@x@AhJs@tCM|EAfCJn@Hv@N|Ap@n@R~DvB`A\\fAVnB^zBV|BJrB?nEHnD@bIL`FB~S\\vFBbIPvBBxADzD^`NdBhKjAjBXv@FhKpAx@FhDd@pCVh@Bp@ClAKn@K\\Kp@Y~BqAtD_CfAm@`@Yv@[d@O~@QbEIx@@vCRfHXd@?f@B\\Ap@BhAJjS|@nLb@~BJtGP`AFl@Lp@DnCETF|AAbF\\f@N^DlAAv@Wh@[v@m@v@s@pAoBhBsDpAyB\\s@v@cAjBaB|C}C`@Yj@q@lBcB`@YtAo@lA]dCk@lCy@|@c@v@s@tGeJz@sAvCsDjEkGn@cAZa@PQjCmDl@m@h@g@rAy@pKkFtEuBbA]~@Qr@CvB?|BEnACj@Eb@EnA]dAc@~@q@bA_An@y@lEyExAuAtDcE\\c@nCwCdAkAdA_AjB{@bAWt@Mn@Ef@AxAF~AZzAf@lFnBfBx@fCx@`AT`APnBNz@BtBArBMjAUfKuClA[bA]tCq@hPeEdLkCxFwAvAYhEiAlHcB`Bi@b@IrD{@fJ}BrHcBtBk@fGuAhMiDx^sLpO{FbBi@pDcB|@]xBo@~Ak@|CoAt@]lBsAjCiDvGgIp@eAx@iBx@aBt@kAf@m@vAsAtE{CfA}@bFsDjEeD|FwDzCcCfJ_HdBmAxAmApCqBz@q@hSaOxBsAhDeB~D{BzC_BtA}@jBeB^_@\\i@r@uAlC{GlLyZLY^gAb@{@J]n@aA\\_@dC}Bx@o@z@aAj@a@fGoFnM{Kj|@wv@hFqElB{AvKwJpI}HxIuHJW?SlHwGvFkGbRmU|@YfBwB~@iBPq@RcALiAb@sF`@aDZuAv@aC^{@bBaD~@yAvAiBvDaDdHqFVUd@g@VUjCwArC{@pWiGhBa@zDo@xFuArDy@dCo@jQiEdOaDvASf@Ud@GtOaD^IbC}@lDq@lEu@\\KjDw@`AKbAE`BJXF~@ZlAl@vFbDvD~B`BhAx@`@f@Lh@HRHf@BZDl@?|BOnCa@`Iq@n@KvJ{@zBc@bHoB~@_@`DyAdFyCrA{@tAcA~A_BdA{A`JeNnCwEdCyEfBoD~CyGT]hFiKDOlBwD\\u@dAmBNa@`BcD\\y@R[hAaCnCeFb@eA~@cBpB}C\\e@zBaC`DeCj@a@`CqAlB}@xMsEd@QrTqH`R{F`EmAv@Sp@UpCw@zIyCzAa@fBk@dGiClAo@|@]hGqC~CmAdDeAjBg@~Ag@hEmApMcExIkCpJuBpE{@jCm@xEmA~@S`KqCnEkAhBm@bFqAtD}@nB]bCWpDQlCDxBJxFl@xCRdDBjDQtBYtAY|EoAfLaDXKn@Yp@g@~CkDxF_HlAkArAaAlBiAt@]t@Wx@Q`Ca@vCWnKo@tCW`Ca@|GwB|EeBdBs@^In@UhG_C~J{DjEgBfI{DrXkNtGaDtQ_IxGqCtAm@rJmD~A_@`@OtD}@lJoBfAO`Eu@tIeBxD}@vOeEfDkA|Ay@|@k@f@_@lEqCh@YfBk@v@St@IdBElD]zTkDfHcA`Eg@fGeAlFiAdB[h@QfBg@nAe@xB}@dCoA`Bq@bBe@pK{ClC{@tAq@xAcATc@jAeBVS`@K`A@NNd@v@^F\\C`ASVQn@U`@?PBf@b@NFRBNGJM\\mBNg@LUPOpAe@zBe@hFw@dHkAbRgEbEi@fAEz@@jAJvAXpCZXEVKZUXYRg@H_@Dg@Ag@_@iBGo@@[FUNQNKp@OfAe@b@Kd@Af@B`@GNId@k@DYCgCDSLQd@Qz@KFIFK?WGWKMg@[s@WOQAUHSNKNCj@Fl@J`@Rx@z@NVDTMfBEXITSHu@@IDELC^Br@X~BBXEb@a@x@K\\CRAfAH^Zr@b@j@XT`ATx@BtAAd@@lAf@jBRnBAd@LPRNf@EdBN`@NHTD~@GTBFb@Q`AIhAOXUXG^?j@B\\L\\FHbBh@jAd@RLLP@LANGVY\\ULQNGN?PTlBJTTZp@l@d@\\\\^PXHVFj@JXTVNZLf@?TMTmAt@a@Z]\\WN]NWROPG^Rj@NHfALhB\\xAbAxBp@TRTf@?XGTiAtA[f@Ux@@b@FNt@f@NNT^`@X\\Pr@n@`B~@|@ZRNLPp@lCDd@Qb@e@Py@JULKPARDb@VdAHj@AXKPSHY?y@OSAMFM\\a@t@ET@^f@rBJr@?tDDbBHt@Lf@N^jAbBdIrJnCxDbEjFbDjEjBtBfAfAdAx@|CtArDrAdAb@`DdAtLxEdAZzDr@tIb@tC\\|E^|CRpAV`C|@b@TLHf@TpK|FbAd@jLvDlM|DnD`AjPlD|E~@`ARxBNle@|BdCPjCj@v@TrAd@vBd@dJlAbBLrARtL|AtARjAVjKlAnBZfCT|AHtBNxAFvLt@zH\\nDTbCT`Df@`B^lBl@fL|ErLpFzC`BfH|C~MfGbCz@vA^tDh@fGh@rJl@dPjApJj@|DXrBP`RnAvE^xI~@rAHbMz@`YbB~K\\~DHfFNjQfAvENpAH~@LfCf@bFrA~Br@xEjA|@NnAZp@JfDPjBFl@?tKd@lG\\t@@hh@zBpWz@zHRfKDrCDpFAvBDlFBnDEzAI`DK`YwA|@AzBDlAH`BRjD~@xB~@|A|@xBpBjCvC|AxARP`CzBfJzHlBdBd@n@\\j@Zr@\\fA~@lDrArFvDhN`DdMf@`Bn@|AlAzA|DfCv@`@|InFxEpC~DfCxBjAl@N^DtAFnFDhHNpGBpQVfD@tBCfGa@vC]`AGrKeAdKkArKaAha@eE|Gm@~C_@dASf@ObBm@rAs@tAy@hBkA~DaCrIkFhH_EfPsInDsBtGoDlGeDxLiGxKoGpFsDrHuEtAs@nAg@dIkCbC{@nBgAz@m@hAo@pCuAbKwEfAk@j@U~BiA~D}BlBiAhCmAh@SdBs@rAa@xAY~AS|CeAvc@}LdHuBjD_AVKl^gK`KaDdQaFfLmD|P{ExGiB|OuExEkAhAc@bCs@tIeCjGoBdD}@vFcB|DiAnJsCvAe@zOmEpU}GpHmBtCy@fKcDxFcCxBiAbDmB`CaBlB{ArBkBfAeAvJcKrHmHtGwGzHeIdTcTfAeAdEkE~R}RfFcF`BgBvEqE|DaEdC_CtBwBxAuAlFoF|SuSvCsCdCuBrDsCdAk@rDwBnB}@~F{BnEqAfCi@vEy@bFs@fHu@zEWt@?jBE`C?hDHlDPbBNxBXzCTvLj@j@@vBNlDPTSdPp@pOv@NXdCLhJ^vWbBdCJ`BPlBJtFd@zE\\`BHvOtAxLhBdDd@|@JvM|BnPvC~@NvHdBxR~DxNhDz@ZfDv@dFtArBf@fIvB~GrB|CbAzQnF|J~C|IbCjBp@jBh@`@D|@?t@EvBA|BKlAMtFq@t@EdA?~@Hx@NtBl@`I~CzCz@rFnBj@LhAJrA?dFWjGUhC?hAEpNcBdFi@jG}@vf@gJrGsAbFgAjCy@hDwA|VmJrCkAd@OfEcBdJeEz@k@x@q@nFsFdDkCjNmI`@Y`JgFlAw@|@u@l@o@tHkKrBsB`BeAbJwF|BcBfS}Q|EqExAcArBoArFeDdAi@vBqAhCeBrD}ChQgOzCgC|B_B`JqFtA}@zHsEb@[xAy@fP}J`DiBtBgAfAa@xCw@nCm@rGqAnBe@pDw@dE{@vCg@jBOhV{@rDKbESnBEfBMbBA`Ri@b@?|BM|EMtBApAHxARvGn@~AAt@Er@I|Aa@bTcIpJuDfC_AvCqAvDaC|C}A|OgGzRqHz[cMrAe@fGeCtIcDbHqClFoBfDgA|EoA`IgBtEiAhB]dC}@r@Yv@e@`BsAd@g@~FeHpCsD|@cAjByAnAo@bCeAnAc@`C{@rM{EdGaCnIyCjFqB~As@`FeBdT}HtSuHnBw@zBw@hFqBjBi@~Bc@`B]fTqDrDu@zL{BdRaDb]iGrRgDlGmAtOoCXCzBYnLuAhJ_Ad\\mDlcAiKrH{@jMoA|w@mIpFu@n@Ob@GhDo@lDm@bZqFrJcBpNmCvCg@`Do@~QiDxEw@~ZkCvN{Ana@yEfKsAdUkChB_@bBk@vAq@`DcBr@k@jBkAB?PMbDqA~@Wn@Gh@A`A@zBHrL`A~Gl@fEZjMPxBHlJvA~@Bt@At@GnA[lAo@nAeAb@o@hBoEf@u@hAgA`Ao@d@SvAe@bDiAj@MjEkA|[cJpBg@pHyBvAe@vC}AbAq@|MiKvCsBlEmDnCoBrAeAdPwLlCkBjHsFl]iWbIqFdGyEhGcEdLkIlFeD`ReJxj@kXzIaEfQwHtI{D~BaAlZ_NbK_Fl@]dBmApBkBPUbAmAjD{EhByBvDqDr@k@|BcBrA{@lDkBnGeCvIiCtK{CrGsBrAi@zAu@pD}BtIgF|AeAt@o@rBmA|AeAn@]lBmAhCmB`BqAr@q@zIqHtDgDrD{CdCwBlAgAjA}@vCwBzDmCtD}B^YtEcClCoAhE_C~C{AlCwA|G{CdEoBfI{DzHoDvJwEjAm@vBw@fCu@zBi@xIgB`Ci@pE{@fD{@pHuA`KuBREb@KnF{@fE]|Da@rACnE[t@K`Ca@hC{@hAe@nBmAnBsAr@o@dA{@lBgCxBmDd@m@fCiEXSnAyBhBqChAmBbCgDZY~AmAtBmA`A]dAQnCMr@?vDNjDRfADfDPzFf@zDd@tB\\zBd@tDp@dFfArGr@dEZrGXzABrEA|CKfDGhLYj@?jBGvSa@|AGnOY|@G~ACf[y@xKShKa@rBAvM[fNc@jJQbJY`FSfKg@xIY`FKbWw@bYu@|@E~@A|HYnYw@zK_@vEMf@?~DOtRk@rEQhQe@|Ng@`FMjAGzI[pp@wBhCMdCGrBKjL]|@?v@CbDDzDRtBRrE^~P^z@@zBAvHc@`Jm@nAApAG^IhACfESpIa@dCOnJa@jIa@lBMpHUrAIbEQnFYvBGzBOnGe@tHq@nBU~Gq@dCShBU~D[zk@sFxWgCdLeAlIy@~AYvBu@`GqCtFqChCoAzCqAlAo@dA_@bIyBfBi@zAk@pBcA~IsFxFuDd@a@~EwC`IcFx@m@hAo@l@e@zAy@z@m@JENMpQkLxGiE~AeAjDwBvFuDxA{@~KmHfBeAdBoAnByAnBiBvC{BlN_MtCoCnC}Bv@w@vD}CTQtCcCtB_BpDiCnHmEzEqCh@W`C_ArEuBdCaAlNgGbDsA|@c@jCiA~K{CvJwBfG{ApEeAzL}CbImBjF}AlAc@XIbL}E`PwGrHgDdLuE~As@fCaAtIoD`D{AzAm@f@QTMRIhFcDbAs@xC}AhAi@rCeA~@YVM|DwAjC{@pCiA~Bw@fEkBjBs@nNkFdGwBjQyG|UuInIuCtOwFdBs@hC{@j@YpCeAjDmAlCcAnB{@vGwDfa@}TpImEnC}AnS_LrCcBhE_ClAm@hEeCnH{DlPgJlIoEvA_AdEwBzA{@jBk@dAa@lIuBfCc@bHaAlB]b@A|Dq@ZCpXgFjAYfEy@rCg@fCg@t\\iGxDy@|P{CzIqAbCa@zDi@vc@{GvImAnGcAhO_CpH}@fDWjM_AhCWrE]pAMt@KhBOdBUlBa@bCo@fNqEtDqA`IcC`PgFdC{@lDcAhOyEvDoA|CkA~Ag@dC}@hVgHlZ{Hl@UtBaA|@g@`Ao@vG{EzAcAzAw@r@[d@UnGwBlCcArB_AdDcBvT_MvNkI~CcBr@]n@ShAYbAOfpA_J|E_@bH]~ACxANf@J`Bn@hAp@hCvBdEfEpCzBbB~ArBjBhAz@z@f@z@`@x@X|@P|@JdADn@BdAKhB[`AUlBu@zIoEhKwFdEqBbEwB~CiBxBkBdBaBlCsCp@}@`LkQxAuBf@i@r@k@bB_Af@O|@SrAOnAKx@A~S\\fLZrA?|@GlAQlDy@bD{@fFiA`Gu@rBGjCEdDA~CBt@LlA\\|Av@fEfCvElCv@^~@PhCLdOHx@Eh@Gt@QtC_AbDy@|@KjA?zANtCj@fD\\n[jC`F\\rKl@jEd@rE^dAPxMhCnJvBrOfFz@\\b\\fL~JtD|Cz@lCf@fCXxU`AjAJvAPlDv@|Ab@x@ZtFfC~An@zDnAN@bAZzCb@|D\\x@DnA@jCIlBMlBOlAStC]lCGjA@hAFvEb@|MpBlCZbCJpA?~HUtDIzA?pAF|Gl@~Dh@zAVvANj@DhABlCE`CKvIYdCCjNJlJBbHJlAHbAJjHrA|FrAl@PhA`@r@b@l@b@dBlBzBjDlFtId@j@v@x@l@d@rAv@hAb@nB\\rBPzKdAdCRtPdBfE^|Fn@xGj@tEh@t\\`DxBVpBLjC@zAEnAKlBYlLmCbRwEhBYhHc@dc@mBlACjDSdBQlBSnNkBtFq@fEs@rX_F~AU|AQvAIlBG~FMhFC|Tc@jNa@`Sc@lNe@jZu@tGUrFMjBGvAApBFvC^nPfCjDp@lIrAdFj@zC`@pEv@pEz@vQvCvCl@~NpB~JbBlC^hCXd@H|Cz@jEzA|C`AzBj@`PzD|KbCd@LnG|AdEfArBb@bHbArCh@zG~AhKlBfQtCjJvA`Dn@fEbAbPzB~B^~JrAlDj@v@N|El@t^rF~Fx@jAH`A?x@EnAQtEkAxDkAnAWxACxVf@n@Id@SxAy@nByApImI|BeCzB}B|CsC|D{CnAu@dCqA|MeGhBg@`AKxAAzCBrBMv@U|@YxMkFlAo@dAm@h@a@n@m@zAoBf@y@v@oBpDiK~@oClBgG`AmC|@gBjCyEl@oAtBuFvCmHfAaDdAeCl@_A~AwAzA_Av@]|Ae@nRsDrEiApBo@zGcDfBeAjAu@nByAhC{B|CeD~BkChByBPQhCqCdB{A|EkDfIeGfB}Ar@m@fB_BxHsHfD_DhGwGdA{@fBeAzAq@r@W`BWzAOrAGt@?v@BhCTrAXlD`AhEbAvANtBDzA?hECtFK~K]zPe@jESnDKlBK|D[fBSrH}@fG{@`BYtHyAh@MdP}C|GwA|Ai@nAo@nAw@bCkBrA{@pAk@hBc@x@M|FW~DI|J[hAMnCm@|LkDjC{@t@YjBk@jCmA~DsBtG{CxAi@jAW`AO~CWfC@jDHzEDxGCdCBtCErCKlGQrBUz@Op@QtDoAvBk@v@SxFiAdBY`AKlDMtCF`Ln@~CFbB?hJMjC?lJUnFKnL_@tJs@xFq@|Ce@xHwArG{AbBc@zEwAtKyDbXmK~I}CjMwDjH{BpGmBn@QxFgBfYeJbf@{OlMiE~KoD`DgAtDkApFkBxGqBjGyBlYoI~}@qX`d@yMtAg@r@a@lAm@`RkLb@WbCiAbCs@rCs@tGgBnGoBz^_M`IqC~OgGfD{ArCkAlFcB~IeC`Co@zDsAbIeDtLyEhEgB|eA}b@pHqCbDsA~f@mRxe@wQ|TuJfBo@hCe@zBKx@@pAHnZjF|JjBrAR~F`@pDDlQCdSObBGz@GrAQ`B]nBy@zAw@|AmA~@aA`AmAbAcBjKeW|C_ItDiJpDoJpCaHfAqB~AqB|AyAnBkA~CaBdLkF|D_BfCmAdBcApA}@^S`K_ItLoJ|DgDtVgTlHcGxSmRzEeEzHeG`Aq@pAm@`A]vCo@jDUjAET@t@LbAZf@\\j@v@LXd@`BbBdHh@hBTh@r@nA`@h@b@f@d@`@tBpAf@TVHvBb@dCJf@HXPXXVb@l@zAXd@\\`@^Zd@Tf@Nh@Hh@Bv@Cp@Il@Mj@Sj@YlBmAd@UXEj@Eh@Dd@J^NXXtBvDd@t@d@n@r@x@bHdHl@t@r@dAp@nAh@x@ZZr@Zb@Fb@?r@OZMXU|BwEbV_i@bB{D|A}DfGgRrA{Dh@oAz@wA~@oAx@}@rCyBdAm@pZqN~BkAxJkHjNuKpCmBpBoArd@iVdF_DbFaD`FgDjAq@~FqDzVgPjLyGhHsD`Bu@fbAaa@lCoArIuE|IcFrYuRfDiCjEuDtBqB~@u@dAm@zAs@nAe@lGcBxBo@rDsAzD_B`Ai@n@a@j@YpA{@zCeChJkIp@s@bBcCv@eBpJoXhA_DXo@vAoC~AgC`PiV`AiAvAuA~AkAv@a@lBy@hJkD`Aa@fOkFdIwCzNsFv@]rBaAvBmApCaBvFqDhFyD~EsEzCeDjJ_MzFoKV]xD{Il@aBfAiDd@_BjBwHfAgGh@sDPwAt@aIZgFFcBHoE@sDMuNBy@LyA^eChAwEr@yA~@_B`AsAb@i@DGzKuJnHkG`L_KtLcKtFqErGsFtTmS~DyDlCuB~BmAbPmGjQuGlLyDvMsD|QwEnPaEbA[bEaAdB[pAObBI~AA~IBlLM`J]xPQ`@@`PItNQ`MR|d@j@zAA~HWxHKfTq@~FInGCbSDb`@AtEHrNn@|^d@`GDtLRr\\tAv_@dBnTh@rHNnTl@vSh@tDLhDHlEPjFLjCCzBKbE_@bBU~M{BrAM`DOvEGlCAp[Cbw@r@~GKrCO|r@}FtOuAxAGdCCzZnAjL`@pn@rAbHLrLAxBElIQdPYrJErAKnBEhFC`CL~AXlAd@~@d@z@h@lHxFrCpBpBnAv@`@|B~@vAp@zAf@`Bb@vCh@lEd@b`@fBvCL~@Ar@Gt@MdAY`Ae@v@m@fBkCZo@Ps@VcCl@iOFeAZmBj@kB^w@lNsUxEuHfA_BdCuCjBgBrAgA`BkAtBmA|FoCvEuBlFkCvAk@pAa@|@SzAUpCM|LAp@C|OgAjAE~@D~@Hr@LbAVhAf@dAl@p@p@j@l@v@rAXp@vD~H|ItQpAhClAdBrAlA`Ap@b@TbWlKdPlHvNbGzRjIfCjAzA`AtAfAd@d@bAhAfKrMj@n@tAjAbBnApOrIx@h@hEzC`@\\rAjA~FpFdAv@jBlAlAn@dBx@vBt@rA^fDp@pAPhBLrBFnCAx@CbDUrCa@p@O|Aa@t\\gKp@QhB]j[cEfDg@nSgChYeDpOsBvN}B|A]nEs@~HuAbNqBb@MfEm@jFcAtB[jASbQiCfVmEnGsAx@W~DeB|CaB~A_ApCoB^]lAqAv@cAfFiH`EqGjA}At@sAdAuAp@s@rBmB`EiB|Ac@lAYzB]dPeBxPoB|KsArMyAP?rIy@dF]~CYpEIzADxEb@~C^bDd@bLxA`Dl@jBf@lCl@hJbCz@RhEp@~BVla@rBzBJ~SNlA?vEGlIHjc@Rf[i@dJMxDIvGK|IQfBGnCO|QuAxCIhT}AfD]pAUdDeA|LmGfC{A`Ae@xCeBhB{@|Ai@~Bq@jCc@`AI`De@|QuB~Em@pM{AjL_BnKsB~Bg@~EqAhDmAx@a@pAq@`e@aU|d@{UpUmMbVaMbPuIh@]vAgArBkB~A_CrAcCfA{Cv@cCtDmN~@uCt@qBrCmGbBcE|GsOf@gAzB_E|C}DnHwK|BwCp@s@p@m@p@e@tBmAz@a@lOiFnF}@rAKzAIrB@bFPtB?nAGnFi@bEs@jAYnBs@x@c@xAgAnBaBb@a@Z_@bA{Al@oA~GoLl@kAZw@rAaFdAiDRi@bRc^vIiQ~BkFlB{EzGoUnCuIt@oBDOnD{J\\{@\\s@\\m@jAaBZ_@jBiBhOmL|@y@|@_Af@o@~AqCrEyIxByDhAwArDsDxAkBp@wAZ}@zAmEv@mCZqBHsAFsALiBLs@Vo@n@_AxCgCZ_@b@}@L_@Ho@Be@CsAa@mEKw@Qs@Yu@cB_D]u@g@yAQaAEi@?m@Du@VwAV}@`@s@\\c@~A_B`IuHhXuVzBwBh@q@Xc@|@eBd@eBPmANkBfAqSFuAFyEA{@[iIo@iMMuD?q@HqBHo@\\cB`@kAp@yAhB_DbBaD`AiCnAwDjBsFn@wAj@_AbAqAZ]`@]rBsAdBs@`Ba@hAQfEc@dNkAdB]`A]|JkFjAi@lBkA`EoBpDuA|CaAlEcBhCiAle@iW~EaC|GmChIyCbDoAnD_BfDcBx@e@rDeCxB_B`CoBzAqA|A{AnGgHdB_ClDwFbCyE|BmFbDuJxLa`@rA{EfEcRjBsIlR_{@|BaIn@_BlB{D^q@xAyBlA}A~C_DrBcBjCiBvUaOpBy@bBe@vKgBvA]pAg@fUsMpFkDrAq@vAi@hLcDj^qJbEeAbD}@jDeAbAe@pXeQdBy@dDkA|SwGf`@yLlAi@`BcAbAy@VW~@mA~Sq^`KoPzHuM~@qAZ[z@q@p@e@z@c@~CkA|QkGdGwBfVeIhAe@nCsAxA{@tA_AlMiKrBsAnAi@tE{AlT_Hx@_@v[_UjDwBvBkA`Bm@hBc@rGyApDu@bHeBpCkAda@uR|JuEtBgArBqApTeQfJ{GjUuO~E_DtSsNnGiEv@c@`Bq@n@Q|B_@rIu@tAS`EiAzPwF|EuBzAu@zA{@~EiDjA}@nCaCnFmFrG}GdEeD~OyJtG}DbD{BhAmA~@yA~EsK\\m@f@s@nAmAf@_@p@a@`Bs@tCy@|GgBpBw@xB{AzHsHlBuAj@[pMwFbCoAnCcBfIyFrIoFdCaB\\Yx@_AnAuBn@aBZsALsAb@aHn@kIRyARy@b@wAx@_Bh@y@pP{R`BwBd@}@r@uBPaATeBz@mIZ_CLm@|D{OrA}Er@}AxAsBv@s@~AiAz[gRjLcHrBsAnCmBzc@c\\zHwFt@q@dDwDjGyGlD}DfEcFbG}G`SyThDoDpByArAq@l@SpL}C|Aw@l@a@d@_@^a@bAqAh@}@nDkHd@{@fAyArAoAx@m@|BsAxF_D^Up@g@\\]h@o@z@{A`@{@j@mB\\}BJ}CKqBYsBqA}DaCsGoC}HeAmCs@_BkNaXgCyEqAwCk@mB_@uAQy@UqAOwAMyAEsAAoADig@@o@NqB`@}B\\eAZu@rAeChP_YdBoDpB_F~D}LzAaF`@uBJkCCeAKyAQkAsBqKKq@IuBAiADmBh@wODu@J{@N_ANq@h@aBb@}@b@s@nAyAbCmC|EwFfIeJp[{]j@u@p@mAd@wALm@h@{CFkCVwDRsAl@iC\\y@zAmCdKuOj@iAl@aBjAkFnCqNn@_DV_Ad@eAb@w@Xc@r@{@dA_A`Am@p@]dCcAzGqBnB}@z@k@tBmBXa@dBgD~AiDp@cB|@aBdGwMfAuCbD_MzHg[pBgJRiAXsBtBsX~AqRT_BTcAjWa}@jAsC^u@lAmBdAmAjAmApDqCvJgH`BqAzCqCdEyEr]sb@tB_D`@y@\\{@xJmXdBuFXcAbFeU~@yC`@aAxAeCxAaBhBwApAw@~B_AzA]lAQnAK|@C|@Dh]C`H?lBBzG\\bJh@hIn@zGb@fBPpLz@lQxA`Kp@`RhA|RrAdOl@zGTfJ`@v@?tJ`@`EHfDIx@EhD[zCa@lBe@nCy@~CkAdA]hAc@lFkB~EiB`Cs@vBe@|C[rAI`CBdABv@Fz@L~APn@LN?dC`@xBb@~@XxCfA~DpAvG`CtIpCjBf@r@LvBT|CJxA?bACbAGbC]`ASdAU`C_AtU}J`CkAvNkGlQaIdK{ElEwB~DuBvDaCnGoElGwEzCeCdBcBnB{BvAkBrB}CjAyBdDmHxN{\\rPca@dOw]tGwOjHuP\\q@x@wApAgB~_@oa@~{@k~@dH{HdM}MtDmDlOmMx@y@dBwBpAqBtWef@bFqJhJqP|DmHhDaGhDkGxBoEfE_I|EmJnDmH~@cBtEiHnOuVzA{BjAuBfDoFvIaNfDsGnIgOfFuJb@eAdBoD~EaL~@mBhEkKpIgS`FaL~EeMdCuGp@}AjAyBlCwFzT}f@|@_CfD{KrBsFTg@dCuGtDeMvHiT^{ARmAl@cFjA_TrAeU?Ol@qI~B}Z`AkIPqAX}ARq@^{@t@oAfFeHl@_Ax@eBrAeD`CmGd@uAlOgb@~AuEzEmMjDwJ`LmZ|C{IAWRk@d@sArAyCj@q@`@YBSLKPEPDd@YfAc@nA]bC]nKeBl_@kG|D_@hDGvBAbKDZAnR?hMDnMA|IBlEZ|Dp@`FbAb@DvAFl@@`BA~@G`CYr_@eHlBUvBQ`CC|OVhJPtPVxQ^jAFlDd@fB^nMlE`EdA~ALlC@pEKl[{@vDGd`@gAxA?~X`BdAHvAVnAXbQdE`s@hMvIxAxEn@`CVfFd@bPrA`CH|@?rAExEW`My@`FSfBErD?xJV`Jp@jKlAz]dFzL`BbIlAX@zATlJp@jBR~El@rJtApEl@xC\\tMjAxI~@tR|CtALnBJrAB`BCbBMrAOpCq@nBu@lCmAbFuBtVaHnMaEnHcChA[tC[`_@y@jBKxASlL_ClB[dBMpCKlMS~HShFS`MmApe@uF|Eo@bjA{NhEo@dMeBnJeAzUwCvNeBvGeAjc@gIb[yFbEi@jQwA~F_@fQ}@xVyAnAAtMVlPT`cAfBt^p@xJNhBIp@IvAYdMkDbIuBpJ}CxEmBbLqFnGaDjCkA`MeFdSmIzAu@`CgBrV}T`EcDdEqCrDcBxIqDbF{AdMqC`kAoVlDy@tAe@nAg@`BaAdAs@rBmBhB_Cr@sAXe@zBcFr@_BbBsC`B{Bb@e@lAiAjB{AhBkAfB}@pBq@bBa@vAWpIgAnCc@dIeAtJeAxAUvF}AhEqAxAs@lCaBnBsAzCiCdAqAdE}FbA_BtCmGtAsCbDkEvI{J~@mAjA}BpEeLjB_DzMsP|FwHvBkDhDgGbBiCtA_BtBoBdF_EdCyBfVoRbIuGfAgAhAuAzQsWlAsAlA{AdOqP`EmEnLuMvAqAvB_BvL}HdDsCfVgVbIqH~KeLzQkQfA_AbBmAvOmIbMsGfHyDz_@iSbAc@pAg@fD{@dRwErJ}BpGwAxCw@xBu@xD{A~DqBtFyCxAeAtAgAdBcBfCwCdD_EdBcCtQaXdMwQx_@ih@dAoAvAuAvAiApCiBhCoAfDgA`D}@tl@eOvEuAnHqChHaD~DuBrDuB|BwAtCqBbDgCvBgBpDeDjPkP`GkGLQnm@mn@dHoHfSmS~OuPrZc[vGaHnDmD~^}_@xDaEhDiDrHyHrKaLnP{P~BiBzA}@~@e@tEwAjYqIrVgHdZ{InB{@r@_@bBiAfCaClAaB`GyJfCkDlBoB`CiBjH{EjE_DrHiFjEuCbOeK|AsAlBmBt@}@x@iAdAcBn@oAz@sBl@eBb@}Ad@_CXmBLgANeBHaC@kBCwAa@eGc@eEWwCGkACmABkAF{@\\yCZ{A\\mAVu@b@cAnA{Bd@s@xI_KLMrCgDtXy[~AsBpP}Rl@q@vWuZvAwA`@]dCeBbCuApCiA`DaAtFkAr@SnLiCrOgD|HiBbCq@vCcAhDsAfIkDzKqEhKoEdDoA~CaAbHcB|SmErTyEfIaBf_@_IlD{@bBk@vAk@tE}BpCmBrAeA`D}CtE{EpE_FxXsYtGaIvA{Bd@iAp@sBnBsL~A{JToA~@aGtAwI|BmOv@{DxDgVdA{GReBb@_Db@kEFaDC_CcAsP]eE]iG?}@BqBJkAd@yBf@mBb@aAzAaCnEwFzEgFtCoCjH{Fj@c@~@w@`CgB`CqBpE_FvB_DtAaCt@{AbCaGb@oAbIkZfBmG`AgBr@cApAwAv@i@~CaBjGyCrA}@lBsBz@mAj@aAjHeNlDqG|@mAhCuClBeBtZsYjD_DnHgHhI{Hba@c`@xNeN|GyG|AkAh@[x@]bA[`Di@tAIt@KvA]`AYlBgA|A}ApBuCjByCzHqLjRiZvKkP`BmCdDyEvA{AbAu@|EuCjA{@jAeAt@iAZo@Zw@Ty@NgAH_AHqCXqPXwMx@wNp@{I|AmWR{CDgAZaCf@{AbAmBlAwAhIwGvAuA~@eAx@aBl@}AbEwQbCeLn@eChAyDz@aCpEkJxBwD~BkD|GgJf@s@lJ{M|DkFzEcGdTsS~MuLfPqOpFgGlZ{^tDwEbEoFtSq\\tGcKv@_ArCcCvHiF`@[nAiAdAqAhBqCZo@b@gA|BkHbAwBtAoB|B}BfOsM~LkKtEeD|KcHjMyHnCeBpKiGdL_HhGeDdQoK~FwDlOcK~j@i`@bG}D|@q@tV}P|GkETS|LoIfA}@lAkA|BoCbCeFxDcKRc@tOwa@~Lq[z@sBbAuBfBsCt@{@`GqFdg@k[~M{IvPuK|AeA|@u@|@y@rB_CnBqCfAoBdCmFnFyLzDqIxDuGfQeW`H{JbKsNjNiSdCwD`BsCv@aB~CcIt@sBb@_Bl@eCh@oChAuG`Og_AhEyX`AuFxAcJxXkxArD_Qv@_DfAeD\\y@lBuDhQq\\dMkVvfAsrBnCiFp@cBf@cB\\yAf@sDLyC?uAEeCk@mPQqDAm@@yDb@uEX_B^yA\\gA`@gAtCaGXe@x@gBhGgMjCyFjCkFlFcKrF{KxDmIhCkFzHwOfA}BtFcLbG_Mjn@uoAbKgTn_@gv@tFkLb@_AfBgDdA}Bd@_AvK}Tp@qAdY}k@rAgCrA}BdIuLtAmB`@q@vR_Yv@mAlBkC`@a@lB{@zAYh@Gl@At@@pCRlB`@bCbAlBfAzH|D~MdHrHrD`DbBlHtDhFhC`AZr@L~@DxHj@|XdBdFP|DGbc@}AbAEfAMz@WfD}AvHeE`Aq@|@w@|@_Av@eAn@gAp@yA`@gA\\mAtBmLz@mFpAeJrBwM~Jwz@j@mDp@aDn@eCdBcFBIbPqg@tBgGtRkl@pPah@|Ku\\^sAh@sAnCcI`FgNjHeRjQig@rQsg@jDyJ~HcVfB_F|[w`AnS}k@~Tqq@rKq\\dMo_@vIgXdKsZhKs[rAyE|JmYvCeJtA{DVaAjAeDv@eC\\qAhAeDrDiL~BgGh@eB`@eAtCeJZkCXoD@k@AyAEmBEe@wCaQa@kB_BkGiLad@uAaGiDiNyFcTKe@sAsEiCoKmFqRYsBGyACm@BoCNsATsAHa@X}@rAmCnKkOnEmHdJaP|CeFtSa^fFkI|GkJrAoB~F}HhD{DrG}GrCoCrByBlIuInCmCdBaB~OkPdHiIlAcB|K_OlGyIdB_ClAsBfIwOjDaHb@iArEwQjEqQrAcGbSc{@~@_Fx@mD\\{Bb@kFXoEtAsQb@iDrCwPfAmHdAwGr@gFZmBhFg[t@wDxGub@`@uC~AmJx@{FxAwGhF_TjAkEpAyFXmBRgBNyBj@kOP{DNgBZqBZuArAgElD_KlEkMtAqDvIcWd@sBZeBVkBBy@@eEKkQMqM?{DDmBJuAR_BVqAd@gBpIuXdB{FtFmQ|FwRtHeVPq@h@eCXgB^uGXiHVsChEmVxF{ZxJwi@|CsTnAyJlHor@Bm@hE{b@xC{Z^kEdF{g@pAeONgBNyCHuEl@aSBwBz@mUn@yLHuCCmBEaBKiA]{Bg@iCeFyTsBmJ}@iDuBaJk@cDg@uDaFy`@Ks@SeCEyCHcCL}Ah@eD\\sAp@mBh@mAdByCbNwTxAoCxAwCrE}J~@{BxBsE~@}AvAgB~A}A|AqAxCeBr@]tAg@hBg@tLwCvAg@tGwCpJcEpPaHv]aOtCkBtCaBlQoLpHaFzC_CpFaG|KmM|IiLxCiEjCoDd@q@nN}RrL}PzBiDzBsDrIaN`AwAvHiMlDkGfEgHdGyJdGgKLObJeOdNqUzNcV`CwDbIeNhOwYhHaOJUn@qAbHeObCsFVu@jAeCx@sBvHqQjGmOjJsTrJoUbEmJhDuItGmOxAwDxIuUnHaSbRwf@|BiG~FoOzAeE~HwSpO}a@lPqb@fF_NlGePpAmDtDkJ|EgMtIqTr@gBzOga@l@yAtAuDr@eBzBcGnEyMrEoMn@aB`@y@dA_BrOcPt@}@p@cAb@{@p@_BXy@V_ARqALqAFwB`Auq@^_Dh@}B|@qBf@_AtAkBxAuAnBuAvAs@pAc@`Ck@|KoBxH{B`CcAdCsAzCkBnBuA|EkExRoRjCcCROpDuDfDkElAaCd@w@nAeCz@uAv@yA|EwJr@gBl@}Bd@cDLcAj@kD`AoD`DgJv@sCN{@DcBCiBMyH@{DVsKHyH~Aws@F_FDaBPoSHeGLyEHsAZmB^uAl@_Bj@cB|@{BbB}CrBaDl@u@bA{@j@]r@[lBm@fGsAtEu@d`@sCfGk@`BQ|AMfAQ|Bg@~@[jCgA~@g@|BaBnEoDxOoM`A}@rEmD|`@{[vN}KxLuJtDqCxIiHbKaIxA{Ah@e@`AiA\\i@v@wAvAeDNk@f@_CVwAlCeUpDaZj@iFfAaIPgB`BgN`@qC\\wAHc@~AwDn@mAtBuCpAqAzDeDtC}BfUiRxCgCzg@cb@rCaC|^{YbO_Mb]_YbBuA~@o@fDwCxBaBlXaUrC{BpCoBt@g@~Au@jBq@|VsHfHcCpBy@dMkGfLaGzFmDlYyPrA_ApBgBp@u@z[s`@~BwCtGcIfIkJbBsBlMcOfDwE|LeVjCqEd@o@tDiEz@y@fKqKbTaUzF}FjB_BtBwAhAo@~Aw@jBw@nh@{QbRqGfOsFlCqAhC{AtDsCtLsLzE_FbA}@`HaHdImHtB_BvAcAlWeQhEqCrPaLxb@wYjBiAhB_A~CsAxt@{\\~eAaf@hEqBjBgA`DeCfSmPvVcSlDcD|DaEdUwVhBsBfAeA`EmCvFeDvD_C`CsAvAo@~Ak@dA[pB]xBYjWqBrCM|@IzB_@~C{@jQwHlMyFjTmJpd@mSnEeB`Bc@fB_@vPgBvRgCnLyC`AUbC_@`i@iF~Fo@|A_@nAe@zAm@`Bw@x@g@pD}B`NeIjHeE|LmHzBoAtBsA~EuCxHwEfU}MbL_H|A{@nM{HdTyLfLyGlDiBjIqDvD}AtMyFl@[fPkHr@a@`A{@^c@Ta@^yALy@Bs@I_Cm@{IGwB?mAD}@ToBLs@Pm@~@kCz@}AlBwBx@q@j@_@dAi@tCmAtV{JfKiEtOkGpDoAfAOv@EdA?jAJv@TxShI|FbCj@RjAZv@JrCBhAI`BYxAk@n@]t@i@fQwP~VyTnJiIxB{BjAeBtGoNj@uAZcAZcAtEcTdCcMtBsJfAqFhFqTnEwOlAwDZw@hAuBnBgCn@s@~HyH`FcFbGwGzA}AjDuCzJyIv@w@x@cA`CgDhDcFnD_FbJyLn@u@dCyBrUwPbJgHzGaHj_Am~@~\\oY|AuAnAoAxA_BtAkB`IgMnAkBxDqGlHeJfh@uj@xPwQ|WqXpGgGrPuNbOaMzCwClAsAjCeDhToYnC}DrB_CbA_A`BqAxSsNnB}Ax@}@`AoAv@qAv@_Bl@{AdOic@nBiGvAgF~@sDxCcNtDoRnGa[~@kFd@_DxBmLt@}Cf@aBvAwDrY{f@vIcQxRqa@nGsM~@_Bp@cANW|CkE~LqPnR{UpXm\\zIkK|c@_h@dFeGxCsCdAy@vByAfByAxHaGlL{JtJ_K|ByBfCgBzIeF~BuB`@_@pBmCfF}HzEoJpBmEbGsNdFaMnU}f@r_@o`A~Z{w@bC_Ht@iBhA{BFS|@iBhBuC~@gA~EoGlDgEbGuHf@u@d@{@~@mBt@yBd@gBvEmRxIq^tLmg@xEoRx@mChCkFz\\_p@~CoGfFuJxD{GrAuAtBcBbDgBxJ{EpLsD|SoGhYcJpScGhJuCbAa@`Ae@l@a@~AsAlh@gm@`EeErLaOlXg[hDaErL}Mp@m@pCgBrCeA`Cg@zFw@hCMxBKrJIrSEjGIdGKvFU~PeAlX}AtOk@dp@sCvE_@za@yEvC[zBQr@KhFi@hDe@xCk@pF_BjBs@jCoAvEqCh]mTtSqLrDgBTO`A_@jFsCrE_CvNcH`DuAlBs@~PuFrAe@jDeAxIuCjGuBzZcLnMuEjEeBvHsCrJcEbJoD~Am@fEgBzD{A|By@lCkAdBy@`CqAbC{AxByAfGqEt@e@fGmEhM}IzGqEhK}Gf]uSpGmEvCeBrJkFb]sSdrBioAnHgEtRsJrZcO|HqD`CiAbLeFdEuB|SwJhNkG~MmGvj@kWlFeCtA}@rImDnFiBvAi@pCw@vAYtJqAzFo@tGiAjBc@vFoBvCqA`IyE`D_B`KiE|j@eTl@QhB_@~@KrAGl@?xBHtJfA|AD`BCj@EtDi@fEgAdOeExy@qTtXmIlF_B|MuDb@QrCu@tMwDzEkAnDgArF{AbHwBfCmAbAk@bEsCdEwDlE{DjCkDpAaCd@cA~@yBfIoUnCmHnDaHl@cAnCwDnBeCfKwKbF}EjBwBzAaBbCuBjBqApAq@zCoAlWqJlAm@zA}@z@m@v@s@~FoG~@y@jCkBxGqEjLkHxC}B~NaNp@m@hf@sc@|FiFr@i@zBuApE{BfCkApLuFpLmFdGuC`CgAzHwDfV}KbLsFdC}Ar@i@jBcBlVgSnP_NdImGp^kZhL_JhSuPvm@kg@pEqD`BmArA}@~DeBbA_@lMqEx@WpEcB`AYjHgCjBs@ba@kNnGsBdYmIlM_E~WaI~FcBtNoEbOmEbAa@zBcAdBmAhAaAzA_BrAuBxDsIxAmDrBkFpPw`@fC{F|CyHjDkHt@oAp@sAnAsBjFsGvBmB`CsBp@g@hEiCrAu@zCqAnEyAdQsElOqDbJ}B|IcCv\\oIz@Uhh@qMfCm@~JgChLoCzQqErAY`OwD|NoDzFqAzDeAh@Sz@a@nAy@lB}ArBkBbWcUtF_FlDuC|EkDvAgAvMeJdE_Dz@y@TWpAsBX{@VaATmAJmBFuFFs@H]d@cAhAgAhAo@p@c@nHcExDcCb@_@bA_AvAmBNYjDeFfE}HpAgC~CuFnD{G`E_Hr@sAfJ}OrCiETi@fAoBhDkFxBwDFO\\c@~CmFpEkHrBoEz@kCn@eBJU^iAvAgDvEmJp@iAvFyKfAqBtFyKZq@jAwAbAiAzB_BpBqAz@e@bEiC`KgGpFaErDoDxFoG~EyEbIeIbH_IxQyRp@w@jAkArE}ExEeEzEgDjFqCvCcBRO|@_ArAqBLWbB_Gd@uAbA_CbI{JTWhD_DfV{S~EoElCmC~C}CrCwC|Q}TxJcMvEeHrI_Nh@w@hBqBpCyBrD_EtBcE`GgN\\}@`CyErAeBnXo[`CaDtB}CfBwCzByD`G{JfAqA\\_@nAy@nAg@|Bm@nAQfB]~KcC~AW~L}BpLiCrBi@dAc@v@_@v@i@tDmDrMoMbCeCfAeAvFuFnAuAhBiCzB}DrCkEpByBdFcFdFsF~BoCtMuMbF_FbFwExD_E`F{EnCwCVSdF_FhAkAjCiCzE{ExFyFvCqC`@c@dDiDdPwOdDgDfUaV~K}KxQuRhBcB`O{NfAkA|BuBtH{HfAkAbDkE~@_BfHqMfJ}PHUdD}F~BoEd@cAjBqFxAsEzCcIbAeChLkVlHkOnBiDjBuCrA}BvAuB~HgMxD}Fz@}ArHsLjBuCxTk]h@q@|DuG`GkJlAkB^o@n@aAjCiE|A_CnHkLpBeDxC{FhEkKfBaFj@oCp@sEJ}@Pq@`AaCb@u@Za@dB_BjBgA~JgF~BwAxAcAvDgDfBiBtAgBdBaC~AeCxGuJvBkDjGcJnBmCjL{P`BuBbAgApAoAdBwAjGwE~H{F`CuBbC_CpCsChOcNrDoDt@o@vAyAjBeBfEcEfXmWbMeLdBaBrCeCpGgG`EiE~AqB|@}@pDoCtEaE|AyApDuCvA_AjEoB|Am@t]mLfE{AxAo@`B{@^UfBoAlH{F`EoDfOeMpCeCd@i@h@y@nDgGx@kBn@gBr@eChNci@f@}AtCyJhb@apAbFsNzCeIV}@vBmGbLsZjD_NvD}Of@cCbDeNbAcEd@}AVs@t@iB\\cAtAkD~Ne\\nOs\\nAmC|GcOL[|H}PzDuIrLmVzJgSbE}HlIuP^}@nAuFxBiMz@uF~@kFA_@TqA^cCA]vBgMPw@E]Dq@^wBFs@@i@Cm@SyAi@qACO?QB_@Re@\\YNG`@E|@Fb@FL?r@JPDhIr@hENvE^~ARtRjBnTzAlAJdEN`FAzAIpHu@~Ig@`EY~COxCAv@@`YrAdH`@tDFvRA`PQdBGrPuAjFQhDIxGAhFHhCFzG^pBPxGt@vTxCbCTpCPfN`@xFLxTn@bDH`BF|ALdRvB`QvBj@FvMdBb@JpDd@rF|@hBl@nDz@hDd@pALnBJ|@BfAAlHS~FQnEUtZ_A`e@Abw@M`MBlEJzBHz`@vBjGd@fPhBbDVhDLra@x@tD@rQCrSV|HDrGKpGCbOAvDH~FFhCJv@F`CZvFz@l@Ld@FtHfA~Ev@dGdAx@JnDh@pAL|FFtCIzAMjBUdCe@zHqBhGiBlI_CpHmBr@KhF{AdFaBnCkAfCyAxAcAlD{ClBsB|AqBvCoDnF_HpCiDfZm_@zCsDfBkBbB_Bx@}@bMwLd@i@hB_C`DoEnDuEz@oAzC}D|HoKv@aAlAqAd@a@rBwAfB_AfFeBfGmB|E_B~Ai@tB}@dAm@lByA|AcB^e@hM}S|Tq_@jAkBxEaI`BcD|A_E^kAbPij@xJ}ZlEoNrD}M\\wAfCcMVgA|B{KdKye@nIqd@~@sFn@_Dv@}E\\uCXsCTgDf@}FR{Cv@wHZuBd@oCb@uBvDiOb@uBlAmIlA_K`AeOFoF?oEG}EOuDi@uHw@sG[wBe@wCq@oDy@oDuAsFSu@q@cDMaA[eDIgB?}DBo@BwBV}FD}CHqEPiEB_DXsK?wCUgCa@sCk@kB_AgBmA_BeEyEq@_AcAsB[y@k@sBUqAKeBI{F_@uPOaNS}JUwCQuAm@iCw@yEWoBw@}Jk@}EU{Ae@yBe@qBoAkEw@wB}@uBaAsBaAeBeGwI{CaEmIeLmCoE}Pw[{@eBsA{CoAgDsBeIc@mCs@cFUyDUiH@{DVkGTaD~@wI`@oCTqA|BaK~@{C`B{ErMy[hGwPjFkNnA_ELsBJmAX_BZiAn@oBj@gAn@_AfB}MDs@@qBSiCu@}E_@{CAU@YFUh@g@d@MR?VBdAXt@BxBQx@m@RNpFaE`EuC`LsIlDeCzGeFrBsAhE_DN]v@o@dCkBnHkF|EgDbA}@pEcDnBaBtDeC~@c@b@GxFkEpDiC|AeAlAo@j@WdC{@rIyBxBq@fIwBt[{G`D{@~Bu@tD}AbB{@tBqAhGoEnKsJvKkKrCeCpIaGdOaLtB{A~I{Gp@g@hEaDd@c@jGqEjIsGdGgEtGaFrAy@tBeBx@w@t@}@j@_Ax@_Bp@cC|@uFJy@@e@n@gGV{DJwBB_EKcBEiGLcBX_BTy@Xu@zD_J\\u@dAiBfCyFj@s@t@gAnBwBjAcAvCmB`DcBbCwAxBcBl@k@dA}At@aB`@yALk@rF{[xB{M`BwI`A{Cv@iBvAiC`BuCpEoI~@aCj@mBbCuHtB{Gb@iB^wBrAuLv@qIX{HT}HPyMP}At@cD`CqHhCsHl@mBVsA^wCt@yIh@sFr@oGXyAp@gCpEeMn@kBpGwQ~@kD^wBlAgGt@wEpC{UV}ATeA\\sAnA_Eb@_Bx@}BfByCh@aA`EeHfA{B`ByCrGaNhBiDfBqD`BmC~AuBpB}Bv@o@vAeAdIaEf@]zG{DbBkAfCwBbAiArEiGjG}H~EmGlB}BbDuDlCuCdBcBd@i@pBqBdCaCpCqBpBkArDmBz@g@pBwAfA{@zKoJvE{D`B_B|@gAl@w@dEkHV]l@uAbAqCt@uC|A{G|CyLlBaHNa@dCqEp@oAt@kA|@kARSdBqAxBgB|J}GbBeAxEoD`BgAr@w@\\g@vCsDt@{@vBgDKGh@u@z@wB\\cA|@oDvAuGZaCfAuGHw@c@Au@Ku@Sa@OSGWOe@UcD{By@q@QOqAoB}BsC]_@u@o@SMc@SiCy@iAY_BUUA]KQCyE]qF[gHSm@EsA?yIN}FFYBkA@gBFeAJs@Cm@I_ASwCu@_E_Aq@QsJoBaK}Bm@M}@_@uAoBa@[g@UaDs@_BUs@QgB}@kAq@mGaEgEuB_Ag@yFcCy@c@wDaC}Ay@oBw@i@QiGiBoA]}BaAsAs@oKwGiEwBs@UqCqAaFoC_JqFw@_@_Ai@{AaAMG_Ai@gS{HcE}BsCqA}Bw@wB_Au@_@mCiA{JyEyImEkCgAqAc@w@[a@IQIaB[iDi@kE}@{Fw@aDs@_AYqAWiCa@iD_@e@A{@Ma@Ie@GwAYeEw@qAKwCGo@?oH[oAQiCk@eDc@qC[_BKuBF_BR}Gj@s@HeAFuAH]?iAIcAWu@[{HgCkDoAmEkB}EkB{@a@cHqCiCw@aD{@c@IgF}AqBq@s@SyAYcGy@{AOcF[sDM{CYyB{@q@a@aBy@cAk@_BeAc@][_@KWK_@Wo@WYMIiBu@k@Y{@U}@EmBA"
+    },
+    {
+      "summary": {
+        "hasTolls": true,
+        "diffs": {
+          "cheapest": 119,
+          "fastest": 243
+        },
+        "url": "https://www.google.com/maps/?saddr=18.889009,73.4994086&daddr=18.5010839,73.9382136+to:18.5005796,73.9413571+to:17.4181473,75.8469594+to:16.8737018,75.7203269+to:15.2514696,76.3607204+to:14.2358136,76.4040434+to:14.2351055,76.4082599+to:12.7353752,77.8294659+to:12.8302,77.8662337&via=1,2,3,4,5,6,7,8",
+        "distance": {
+          "text": "627.0 mi",
+          "metric": "1008.9 km",
+          "value": 1008881
+        },
+        "duration": {
+          "text": "1 d 0 h 22 min",
+          "value": 87742
+        },
+        "name": "NH-50",
+        "note": []
+      },
+      "costs": {
+        "fuel": 6164,
+        "cash": 1145
+      },
+      "tolls": [
+        {
+          "id": 9232123,
+          "lat": 18.70065,
+          "lng": 73.69225,
+          "name": "DehuRd",
+          "road": "Old Mumbai - Pune Hwy",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 120,
+          "return": 180,
+          "monthly": 3960,
+          "height": null,
+          "arrival": {
+            "distance": 33635,
+            "time": "2020-12-03T22:15:39+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                73.69225,
+                18.70065
+              ]
+            }
+          },
+          "nhai": null,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103501,
+          "lat": 18.49345,
+          "lng": 73.99315,
+          "name": "Kawdipath",
+          "road": "Pune - Pandharpur Rd",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 25,
+          "return": 38,
+          "monthly": 750,
+          "height": null,
+          "arrival": {
+            "distance": 94262,
+            "time": "2020-12-03T23:32:43+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                73.99315,
+                18.49345
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103511,
+          "lat": 18.48325,
+          "lng": 74.23505,
+          "name": "Kasurdi",
+          "road": "Solapur - Pune Hwy",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 25,
+          "return": 38,
+          "monthly": 750,
+          "height": null,
+          "arrival": {
+            "distance": 119909,
+            "time": "2020-12-03T23:55:35+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                74.23505,
+                18.48325
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100641,
+          "lat": 18.42495,
+          "lng": 74.46665,
+          "name": "Patas",
+          "road": "Solapur - Pune Hwy",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 70,
+          "return": 110,
+          "monthly": 2405,
+          "height": null,
+          "arrival": {
+            "distance": 145406,
+            "time": "2020-12-04T00:18:18+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                74.46665,
+                18.42495
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102081,
+          "lat": 18.09665,
+          "lng": 75.06715,
+          "name": "Sardewadi / Indapur",
+          "road": "MH SH 104",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 75,
+          "return": 110,
+          "monthly": 2440,
+          "height": null,
+          "arrival": {
+            "distance": 225937,
+            "time": "2020-12-04T01:30:06+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.06715,
+                18.09665
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102610,
+          "lat": 17.95805,
+          "lng": 75.33145,
+          "name": "Varwade",
+          "road": "Solapur - Dhule NH",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 60,
+          "return": 90,
+          "monthly": 1950,
+          "height": null,
+          "arrival": {
+            "distance": 259526,
+            "time": "2020-12-04T02:00:02+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.33145,
+                17.95805
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102640,
+          "lat": 17.76425,
+          "lng": 75.75575,
+          "name": "Sawaleshwar",
+          "road": "Pandharpur - Tuljapur - Solapur - Georai Rd",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 60,
+          "return": 90,
+          "monthly": 1950,
+          "height": null,
+          "arrival": {
+            "distance": 310299,
+            "time": "2020-12-04T02:43:59+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.75575,
+                17.76425
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103590,
+          "lat": 17.53465,
+          "lng": 75.87985,
+          "name": "Wadakbal",
+          "road": "NH52",
+          "state": "Maharashtra",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 5,
+          "return": 8,
+          "monthly": 150,
+          "height": null,
+          "arrival": {
+            "distance": 346001,
+            "time": "2020-12-04T03:18:22+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.87985,
+                17.53465
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102421,
+          "lat": 16.78715,
+          "lng": 75.74035,
+          "name": "Kasaba (Bijapur)",
+          "road": "Bijapur Rd",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 60,
+          "return": 85,
+          "monthly": 1940,
+          "height": null,
+          "arrival": {
+            "distance": 434029,
+            "time": "2020-12-04T04:45:40+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.74035,
+                16.78715
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103150,
+          "lat": 16.29055,
+          "lng": 75.92355,
+          "name": "Nagarhalla",
+          "road": "NH50",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 95,
+          "return": 140,
+          "monthly": 3110,
+          "height": null,
+          "arrival": {
+            "distance": 496002,
+            "time": "2020-12-04T05:48:40+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                75.92355,
+                16.29055
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103011,
+          "lat": 15.81935,
+          "lng": 76.17505,
+          "name": "Vanagari",
+          "road": "NH50",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 50,
+          "return": 75,
+          "monthly": 1720,
+          "height": null,
+          "arrival": {
+            "distance": 556747,
+            "time": "2020-12-04T06:50:25+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                76.17505,
+                15.81935
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103001,
+          "lat": 15.35775,
+          "lng": 76.31365,
+          "name": "Shahapur",
+          "road": "NH50",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 50,
+          "return": 75,
+          "monthly": 1720,
+          "height": null,
+          "arrival": {
+            "distance": 611267,
+            "time": "2020-12-04T07:45:50+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                76.31365,
+                15.35775
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103793,
+          "lat": 15.32385,
+          "lng": 76.30375,
+          "name": "Hitnal",
+          "road": "NH50",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 40,
+          "return": 60,
+          "monthly": 1375,
+          "height": null,
+          "arrival": {
+            "distance": 615475,
+            "time": "2020-12-04T07:50:01+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                76.30375,
+                15.32385
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102670,
+          "lat": 14.05395,
+          "lng": 76.56075,
+          "name": "Guilalu",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 65,
+          "return": 100,
+          "monthly": 2190,
+          "height": null,
+          "arrival": {
+            "distance": 776162,
+            "time": "2020-12-04T11:57:02+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                76.56075,
+                14.05395
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9102690,
+          "lat": 13.61285,
+          "lng": 76.95545,
+          "name": "Karjeevanhalli",
+          "road": "Bengaluru - Mumbai Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 80,
+          "return": 125,
+          "monthly": 2715,
+          "height": null,
+          "arrival": {
+            "distance": 845041,
+            "time": "2020-12-04T12:57:33+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                76.95545,
+                13.61285
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "type": "ticketSystem2",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 35,
+          "return": null,
+          "monthly": null,
+          "start": {
+            "id": 9102710,
+            "lat": 13.30205,
+            "lng": 77.16195,
+            "name": "Kaythsandra/Tumkur/Chokkanahalli",
+            "road": "Bengaluru - Mumbai Hwy",
+            "state": "Karnataka",
+            "arrival": {
+              "distance": 887386,
+              "time": "2020-12-04T13:37:17+00:00"
+            },
+            "point": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  77.16195,
+                  13.30205
+                ]
+              }
+            }
+          },
+          "end": {
+            "id": 9102740,
+            "lat": 13.11475,
+            "lng": 77.37465,
+            "name": "Neelamangala - Tumkur /Kulumepalya",
+            "road": "Tumkur Main Rd",
+            "state": "Karnataka",
+            "arrival": {
+              "distance": 918894,
+              "time": "2020-12-04T14:13:45+00:00"
+            },
+            "point": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  77.37465,
+                  13.11475
+                ]
+              }
+            }
+          },
+          "height": null,
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9100280,
+          "lat": 13.09105,
+          "lng": 77.40015,
+          "name": "Banglore - Neelamangla",
+          "road": "Bengaluru - Mangaluru Hwy",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 20,
+          "return": 30,
+          "monthly": 660,
+          "height": null,
+          "arrival": {
+            "distance": 922892,
+            "time": "2020-12-04T14:18:10+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                77.40015,
+                13.09105
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        },
+        {
+          "type": "ticketSystem1",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 180,
+          "return": null,
+          "monthly": null,
+          "start": {
+            "id": 9226094,
+            "lat": 13.04245,
+            "lng": 77.47575,
+            "name": "Tumkur Rd",
+            "road": "Nice Rd",
+            "state": "Karnataka",
+            "arrival": {
+              "distance": 933775,
+              "time": "2020-12-04T14:27:25+00:00"
+            },
+            "point": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  77.47575,
+                  13.04245
+                ]
+              }
+            }
+          },
+          "end": {
+            "id": 9226080,
+            "lat": 12.85915,
+            "lng": 77.65595,
+            "name": "Hosur Rd",
+            "road": "Nice Rd",
+            "state": "Karnataka",
+            "arrival": {
+              "distance": 972411,
+              "time": "2020-12-04T14:58:45+00:00"
+            },
+            "point": {
+              "type": "Feature",
+              "properties": {},
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  77.65595,
+                  12.85915
+                ]
+              }
+            }
+          },
+          "height": null,
+          "nhai": null,
+          "is_vPlaza": null
+        },
+        {
+          "id": 9103121,
+          "lat": 12.77695,
+          "lng": 77.77715,
+          "name": "Attibele (BETL)",
+          "road": "Chennekothapalli Rd",
+          "state": "Karnataka",
+          "type": "barrier",
+          "currency": "INR",
+          "tagPrimary": [
+            "Tag transponder"
+          ],
+          "tagSecondary": null,
+          "oneWay": 30,
+          "return": 45,
+          "monthly": 870,
+          "height": null,
+          "arrival": {
+            "distance": 989679,
+            "time": "2020-12-04T15:15:51+00:00"
+          },
+          "point": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                77.77715,
+                12.77695
+              ]
+            }
+          },
+          "nhai": true,
+          "is_vPlaza": null
+        }
+      ],
+      "directions": [
+        {
+          "position": {
+            "latitude": 18.889009,
+            "longitude": 73.4994086
+          },
+          "maneuver": "forward",
+          "html_instructions": "Head <span class=\"heading\">southeast</span>. <span class=\"distance-description\">Go for <span class=\"length\">10.2 mi</span>.</span>",
+          "distance": 16479,
+          "duration": 2639,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.8099563,
+            "longitude": 73.6066711
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 930,
+          "duration": 164,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.8018024,
+            "longitude": 73.6073792
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.5 mi</span>.</span>",
+          "distance": 3997,
+          "duration": 666,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.7682962,
+            "longitude": 73.607111
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> toward <span class=\"sign\">Golden Quadrilateral/AH47</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.8 mi</span>.</span>",
+          "distance": 2909,
+          "duration": 496,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.7488019,
+            "longitude": 73.6221635
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">8.0 mi</span>.</span>",
+          "distance": 12808,
+          "duration": 1466,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.6868644,
+            "longitude": 73.7206864
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">8.5 mi</span>.</span>",
+          "distance": 13623,
+          "duration": 798,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.5717654,
+            "longitude": 73.7648571
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Banglore Mumbai Highway</span> <span class=\"number\">(AH47)</span> toward <span class=\"sign\"><span lang=\"en\">Satara</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">10.2 mi</span>.</span>",
+          "distance": 16422,
+          "duration": 1059,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.4630072,
+            "longitude": 73.8199067
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Mumbai Pune Highway</span> toward <span class=\"sign\"><span lang=\"en\">Katraj</span>/<span lang=\"en\">Sinhagad</span>/<span lang=\"en\">N. D. A</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">0.4 mi</span>.</span>",
+          "distance": 573,
+          "duration": 42,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.4597242,
+            "longitude": 73.824048
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> onto <span class=\"next-street\">Mumbai Pune Bypass</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.5 mi</span>.</span>",
+          "distance": 3977,
+          "duration": 309,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.4478796,
+            "longitude": 73.8594425
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Katraj Hadapsar Bypass</span>. <span class=\"distance-description\">Go for <span class=\"length\">6.4 mi</span>.</span>",
+          "distance": 10251,
+          "duration": 1176,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.4612048,
+            "longitude": 73.9499295
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Easterly Bypass</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.0 mi</span>.</span>",
+          "distance": 1597,
+          "duration": 143,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.465271,
+            "longitude": 73.9625251
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Pune Saswad Road</span> <span class=\"number\">(SH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.8 mi</span>.</span>",
+          "distance": 4495,
+          "duration": 323,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.4988952,
+            "longitude": 73.9403486
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> onto <span class=\"next-street\">Pune Saswad Road</span> <span class=\"number\">(SH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 255,
+          "duration": 28,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.5003757,
+            "longitude": 73.9385247
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Pune Saswad Road</span> <span class=\"number\">(SH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">85 ft</span>.</span>",
+          "distance": 26,
+          "duration": 6,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.5005367,
+            "longitude": 73.9386964
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Service Road</span> <span class=\"number\">(SH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">75 ft</span>.</span>",
+          "distance": 23,
+          "duration": 3,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.5006869,
+            "longitude": 73.9385462
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Pune Saswad Road</span> <span class=\"number\">(SH-64)</span>. <span class=\"distance-description\">Go for <span class=\"length\">203 ft</span>.</span>",
+          "distance": 62,
+          "duration": 23,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 18.5010839,
+            "longitude": 73.9382136
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 338,
+          "duration": 21,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 18.5005796,
+            "longitude": 73.9413571
+          },
+          "maneuver": "forward",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Pune Solapur Road</span> <span class=\"number\">(NH-65)</span>. <span class=\"distance-description\">Go for <span class=\"length\">129 mi</span>.</span>",
+          "distance": 206828,
+          "duration": 11062,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.8173673,
+            "longitude": 75.6290781
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Pune Solapur Highway</span> <span class=\"number\">(NH-65)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.7 mi</span>.</span>",
+          "distance": 1127,
+          "duration": 55,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.8110158,
+            "longitude": 75.637157
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Pune Solapur Highway</span> <span class=\"number\">(NH-65)</span> toward <span class=\"sign\"><span lang=\"en\">Solapur</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">5.3 mi</span>.</span>",
+          "distance": 8473,
+          "duration": 406,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.7848697,
+            "longitude": 75.7110679
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Pune Solapur Highway</span> <span class=\"number\">(NH-65)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 983,
+          "duration": 48,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.7823162,
+            "longitude": 75.7199085
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Pune Solapur Highway</span> <span class=\"number\">(NH-65)</span>. <span class=\"distance-description\">Go for <span class=\"length\">13.3 mi</span>.</span>",
+          "distance": 21386,
+          "duration": 1032,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.686497,
+            "longitude": 75.8921063
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Service Road</span> toward <span class=\"sign\"><span lang=\"en\">Tuljapur</span>/<span lang=\"en\">Solapur</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">522 ft</span>.</span>",
+          "distance": 159,
+          "duration": 23,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.6861,
+            "longitude": 75.8935118
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Pune Solapur Highway</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">410 ft</span>.</span>",
+          "distance": 125,
+          "duration": 12,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.6849949,
+            "longitude": 75.8932972
+          },
+          "maneuver": "right",
+          "html_instructions": "Take the <span class=\"exit\">1st exit</span> from Chatrapati Sambhajiraje Chowk roundabout onto <span class=\"next-street\">Pune Road</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.5 mi</span>.</span>",
+          "distance": 836,
+          "duration": 72,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.6797056,
+            "longitude": 75.8987045
+          },
+          "maneuver": "right",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from Chatrapati Shivaji Maharaj Chowk roundabout onto <span class=\"next-street\">Station Road</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.1 mi</span>.</span>",
+          "distance": 1772,
+          "duration": 153,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.6654148,
+            "longitude": 75.8935654
+          },
+          "maneuver": "right",
+          "html_instructions": "Take the <span class=\"exit\">2nd exit</span> from Chautra Station Naka roundabout onto <span class=\"next-street\">Station Road</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 1005,
+          "duration": 90,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.6593852,
+            "longitude": 75.9003997
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Alankar Chowk</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 957,
+          "duration": 87,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.6528943,
+            "longitude": 75.9052491
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Bharat Ratna Mother Teresa Chowk</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">14.8 mi</span>.</span>",
+          "distance": 23750,
+          "duration": 1386,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 17.4507308,
+            "longitude": 75.8496737
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">NH-13</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.3 mi</span>.</span>",
+          "distance": 3675,
+          "duration": 207,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 17.4181473,
+            "longitude": 75.8469594
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">NH-13</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">39.4 mi</span>.</span>",
+          "distance": 63329,
+          "duration": 3776,
+          "note": [
+            {
+              "type": "info",
+              "code": "adminDivisionChange",
+              "text": "Entering <span class=\"admin_division\">KA</span>"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 16.8737018,
+            "longitude": 75.7203269
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Bijapur Ring Road</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">119 mi</span>.</span>",
+          "distance": 191762,
+          "duration": 11696,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 15.328331,
+            "longitude": 76.3017654
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp toward <span class=\"sign\"><span lang=\"en\">Chitradurga</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">0.6 mi</span>.</span>",
+          "distance": 1010,
+          "duration": 51,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 15.3222477,
+            "longitude": 76.3066363
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Hubli Bellary Road</span> <span class=\"number\">(NH-50/NH-67)</span>. <span class=\"distance-description\">Go for <span class=\"length\">282 ft</span>.</span>",
+          "distance": 86,
+          "duration": 12,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 15.3219259,
+            "longitude": 76.3073659
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Hubli Bellary Road</span> <span class=\"number\">(NH-50/NH-67)</span>. <span class=\"distance-description\">Go for <span class=\"length\">2.9 mi</span>.</span>",
+          "distance": 4716,
+          "duration": 232,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 15.28651,
+            "longitude": 76.3251436
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Hubli Bellary Road</span> <span class=\"number\">(NH-50/NH-67)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.9 mi</span>.</span>",
+          "distance": 2989,
+          "duration": 146,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 15.2701807,
+            "longitude": 76.3453031
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">NH-13</span> <span class=\"number\">(NH-52)</span>. <span class=\"distance-description\">Go for <span class=\"length\">1.7 mi</span>.</span>",
+          "distance": 2729,
+          "duration": 176,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 15.2514696,
+            "longitude": 76.3607204
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Hospet Bypass</span> <span class=\"number\">(NH-50)</span> toward <span class=\"sign\"><span lang=\"en\">Chitradurga</span>/<span lang=\"en\">Bengaluru</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">76.1 mi</span>.</span>",
+          "distance": 122470,
+          "duration": 12767,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 14.2358136,
+            "longitude": 76.4040434
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Golden Quadrilateral</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 467,
+          "duration": 53,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 14.2351055,
+            "longitude": 76.4082599
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Take <span class=\"direction\">right</span> ramp onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">81.3 mi</span>.</span>",
+          "distance": 130912,
+          "duration": 6902,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.3507919,
+            "longitude": 77.123723
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">14.9 mi</span>.</span>",
+          "distance": 24046,
+          "duration": 1781,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.1978846,
+            "longitude": 77.2718561
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Bengaluru Pune National Highway</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">6.2 mi</span>.</span>",
+          "distance": 10020,
+          "duration": 502,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.1440043,
+            "longitude": 77.3447263
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Bengaluru Pune National Highway</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.2 mi</span>.</span>",
+          "distance": 5162,
+          "duration": 490,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.1110239,
+            "longitude": 77.3779857
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Bengaluru Pune National Highway</span> <span class=\"number\">(AH47)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.3 mi</span>.</span>",
+          "distance": 5313,
+          "duration": 324,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.0839336,
+            "longitude": 77.4156439
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Golden Quadrilateral</span> <span class=\"number\">(AH47)</span> toward <span class=\"sign\"><span lang=\"en\">Hyderabad</span>/<span lang=\"en\">Chennai</span>/<span lang=\"en\">Bangalore</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">4.1 mi</span>.</span>",
+          "distance": 6600,
+          "duration": 302,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.057884,
+            "longitude": 77.4700606
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Service Road</span> toward <span class=\"sign\"><span lang=\"en\">Hosur</span>/<span lang=\"en\">Exhibition Center</span>/<span lang=\"en\">Jindal</span>/<span lang=\"en\">Mysore Road</span>/<span lang=\"en\">Kanakapura Road</span>/<span lang=\"en\">NH-209</span>/<span lang=\"en\">Electronic City</span>/<span lang=\"en\">NH-7</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 442,
+          "duration": 42,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 13.0569398,
+            "longitude": 77.4739981
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Take ramp onto <span class=\"next-street\">Nice Road</span> toward <span class=\"sign\"><span lang=\"en\">Hosur Road</span>/<span lang=\"en\">Kanakapura Road</span>/<span lang=\"en\">Link Road ( P. E. S College )</span>/<span lang=\"en\">Mysore Road</span>/<span lang=\"en\">Magadi Road</span>/<span lang=\"en\">Bannerughatta Road</span>/<span lang=\"en\">B.I.E.C</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">25.2 mi</span>.</span>",
+          "distance": 40495,
+          "duration": 1969,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8595293,
+            "longitude": 77.6547897
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> toward <span class=\"sign\">Nice Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 360,
+          "duration": 28,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8584349,
+            "longitude": 77.6578474
+          },
+          "maneuver": "bearLeft",
+          "html_instructions": "Keep <span class=\"direction\">left</span> onto <span class=\"next-street\">Nice Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.2 mi</span>.</span>",
+          "distance": 356,
+          "duration": 27,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8578663,
+            "longitude": 77.6610661
+          },
+          "maneuver": "forward",
+          "html_instructions": "Take the exit. <span class=\"distance-description\">Go for <span class=\"length\">0.3 mi</span>.</span>",
+          "distance": 544,
+          "duration": 43,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8565145,
+            "longitude": 77.6641881
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">135 ft</span>.</span>",
+          "distance": 41,
+          "duration": 12,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.8562248,
+            "longitude": 77.6644242
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">46 ft</span>.</span>",
+          "distance": 14,
+          "duration": 5,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.8561175,
+            "longitude": 77.6643384
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Hosur Main Road</span> <span class=\"number\">(AH43/AH45)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.4 mi</span>.</span>",
+          "distance": 7077,
+          "duration": 409,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.8041685,
+            "longitude": 77.7009666
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Hosur Main Road</span> <span class=\"number\">(AH43/AH45)</span>. <span class=\"distance-description\">Go for <span class=\"length\">4.9 mi</span>.</span>",
+          "distance": 7957,
+          "duration": 403,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.7796638,
+            "longitude": 77.7677965
+          },
+          "maneuver": "bearRight",
+          "html_instructions": "Keep <span class=\"direction\">right</span> onto <span class=\"next-street\">Hosur Main Road</span> <span class=\"number\">(AH43/AH45)</span> toward <span class=\"sign\"><span lang=\"en\">Hosur</span></span>. <span class=\"distance-description\">Go for <span class=\"length\">1.2 mi</span>.</span>",
+          "distance": 1990,
+          "duration": 213,
+          "note": [
+            {
+              "type": "info",
+              "code": "tollRoad",
+              "text": "Toll road"
+            },
+            {
+              "type": "info",
+              "code": "tollBooth",
+              "text": "Stop for toll booth"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.7725613,
+            "longitude": 77.784394
+          },
+          "maneuver": "forward",
+          "html_instructions": "Continue on <span class=\"next-street\">Bangalore Road</span> <span class=\"number\">(AH43/AH45)</span>. <span class=\"distance-description\">Go for <span class=\"length\">3.7 mi</span>.</span>",
+          "distance": 5905,
+          "duration": 368,
+          "note": [
+            {
+              "type": "info",
+              "code": "adminDivisionChange",
+              "text": "Entering <span class=\"admin_division\">TN</span>"
+            }
+          ]
+        },
+        {
+          "position": {
+            "latitude": 12.7372849,
+            "longitude": 77.8236294
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">26 ft</span>.</span>",
+          "distance": 8,
+          "duration": 13,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.7373385,
+            "longitude": 77.8236723
+          },
+          "maneuver": "right",
+          "html_instructions": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Service Road</span>. <span class=\"distance-description\">Go for <span class=\"length\">0.4 mi</span>.</span>",
+          "distance": 671,
+          "duration": 76,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.7353752,
+            "longitude": 77.8294659
+          },
+          "maneuver": "left",
+          "html_instructions": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Bangalore Road</span> <span class=\"number\">(NH-648)</span>. <span class=\"distance-description\">Go for <span class=\"length\">7.2 mi</span>.</span>",
+          "distance": 11569,
+          "duration": 1067,
+          "note": []
+        },
+        {
+          "position": {
+            "latitude": 12.8302,
+            "longitude": 77.8662337
+          },
+          "maneuver": "forward",
+          "html_instructions": "Arrive at <span class=\"street\">Hosur Bagalur Road</span> <span class=\"number\">(NH-648)</span>.",
+          "distance": 0,
+          "duration": 0,
+          "note": []
+        }
+      ],
+      "polyline": "ighrBijr_MFE@GCQEKUc@ISEOCYL_ADm@Gg@S[Me@AWBiBAYOi@S_@Mi@IS[OaBGUGGIKkAIISKu@Uw@e@u@]OQKQGWA{CMoA]m@e@e@SYEQBc@bAsCBWEi@Ii@@[DWf@_ANq@r@oIP{Cp@wFKuA?e@Hm@Rc@Z]b@S`BUZGhAa@f@K`@CvAL`@JbAPnAH`EDfBA\\IXQpAw@XWZ]n@}@b@oA`@s@bAoAjAmBVU^Q`AWn@_@RUzA_DT_Ax@sEBe@Jk@Tc@z@m@b@c@b@u@~@qBf@y@p@}@bAcBpB}C`@w@`@eA^mAb@sBZyCRcATy@dCoGlBeDvA}Bx@cANMn@g@hBoAh@Y^I\\ENEVWXm@pAcBHSLaBd@mAl@}@`C_BfBoAf@UfA]bBG^GHEVe@f@yAVg@\\WbAk@NQJWDU@w@Ky@SgA@[T[fAu@tAgBjCwBb@O~BYf@Id@Or@G|@Lh@RhAj@TFj@ErAkAr@[vCe@rBg@lKoD`@a@ZmBRgBRq@l@w@j@g@zAq@XOXSf@e@\\UnAa@h@WlAcA~AgBzAiC\\_@ZWn@a@nAo@ZMvA_APUJ_@B{@RgCEWeAgAk@w@{@w@K]?_@b@yCd@uB`@qCNk@Tg@`@i@tCmCn@}@rA{Cf@e@`@e@JQXQfAmCZm@l@o@FUZo@j@y@nAuAb@w@V]fAeAbAq@~@g@`@_@`AuAJSDY@YEcAL_APg@f@m@j@Wn@Ox@KnCC\\IVIPUH_@L_BVmARk@V_@TO`@OV?TCvAe@pAaAr@[\\Gp@I`@@^GhB{@tAa@\\GbAO~@GtBKj@GfAC^SVSZ]LUn@s@t@a@ZGv@KjGY`@KPMzAyBdAiBj@sBJWX_@t@i@x@e@RWTq@Di@K_BO{ABoA\\wBZeA`@_ADU@WOi@yA}AWeAI}@A]F_AVqBAs@Ku@@[T_DFk@x@kB`@s@Za@n@k@^a@hAeBNOXQhAi@b@YJCd@[RObAiArAcERc@R[d@c@fD_DLUr@wCbBcEZ_@`@QVO\\M\\QZe@Ja@JcAF[f@yAV}AN[h@u@Xi@HWLq@L]rBaCP_@Py@B{ADWBs@Nc@rAoBnDwDTa@`AeCXm@l@aBvAsCb@uB^mAJc@FqAGgBHkAb@}AZu@tAqBd@{@v@_AVUz@g@|@{@dB_Cj@_A`AeAp@k@x@g@fEaCt@]xBq@PKl@o@t@gAl@s@z@_BfAqCh@s@l@cATg@z@{@~CmCjBoAlBgAZOJKTKRWN]^]XQPSZe@Vi@NOdCgBV]DUDu@FeBPs@R[XYt@k@t@Wv@ShA]|@]b@SpAq@z@a@`Eu@nDe@xBq@v@QPART`@H|@IbAQxDE~@G|A[h@Eb@GPI^IP?j@QjAG`DHFEjAGPMt@Hj@B`A?rAGRIFGFEn@A|E@RG~MvKxBfBVV|BdBt@RxAHnIHbC?pEGvCMz@GdC[zBSvAOnIo@|D_@jDUfBElCDlDNpBLrA`@bDzAVNx@Vf@@bCU`@K`B}@vAs@VG^QtC}A`Ao@`Ay@|C}Bt@a@dBu@|BmAhCoA|@_@`@OVEZAT@vD`@jCTtOl@pCD^Dl@BfEJvAJ|C^h@E|@Qp@Y^[xBwBr@{@rIuKd@w@Zm@f@mAb@o@h@o@bAuAZq@p@kBb@{@d@k@TOn@[h@[RUl@mAl@eBv@uArB_Cx@m@~AcAzBkAnAw@b@Qd@M~Fy@bAKfDEdIGp@gAf@eA|@aCdAmDR_Al@aBTe@XU\\Sj@Hr@RjBc@zAIp@@bANd@?^Ij@Wh@e@hAs@zAo@n@Mb@mBjA{F`A{DnCeGrFwKxB{Dp@aAfBsB~AkAlBgAtOeIz@o@x@w@t@}@rGwJdByCr@}Av@eDzAsKvBkNnBwLp@cDTu@Te@Zc@tAaBdHaIrCqCpBaBhAcA|AiB^w@l@}@lAqB`B{Bp@cAz@eAx@kAbEiHnAuBhAcCXw@dGcOrDqJf@eAbJaTtAkClDmHbF_KvGgMx@qAt@wA\\g@NW|BiDf@o@bB}BdKiMrH{JtIuLpCkD|CsCbBcBXQlBy@j@_@dP_NpIqIhFoF|B}BnFwFbCmDPa@Hc@~@qEPOvAkI@e@`G{]|@yFdAmHl@_KZcMDmDDuAPaBT_A\\_A^w@hAoCl@iAxAqBvBkCdB}BNQtD_FxEiGlB_CrAiBlJ}LvAoB|AoBnAcBdFwGbBsBh@w@^HNAlIyBzTeGrTwFfL}CzBi@v@UdFuA|MoDbEaA|F_BfDcAv@S`A[fEgAvEwAv@QbOyEnJmCzCeAr`@kLnA[nDkAvBm@|NqEtR}F~L}D|DeAlGgBdCo@h\\mJdAWfCy@~Ac@nAc@~DoAr@MpGeBtSgG~DoAdAWbPsEbBi@r@YvIgCtPqFvF_BjQuFpGiBrL{Cv@WvPmE|GqBp@KhBg@rHmBdXqHnCs@tGmBfG{AfRaFzNgEfBa@hGcBh@IbBc@bOgEzBk@p@UhA]`QwEz@YxCw@lC}@tg@aNVKlL}CjD{@`GgBhEmAfJ{Bbd@aMvBe@hImB|C}@rBc@nJaCnZqHjTsFjHcBh@Kp@UrFaBzAu@n@c@\\[tLkNz@qAtGwKd@q@p@u@fAw@n@]jAi@XIvAWrAKrA?t@HrBXfKvB|@LzGv@~B`@jAVpIfCzCbApB|@nAv@z@t@b@d@zApBb@p@P`@p@dBrD~Mz@nBh@fA`BlBhAbAvFlEtHjFv@b@jA^n@N`Dh@pC\\v@Fz@JxCPzBDvCC|AItAI`CWjBYt@QhBi@r@Yt@]~CgBxAcAnAaAf@e@~AwBvCgE~AyBf@y@t@yAn@kBn@qCd@oDl@mE|@yHbBqMpAcJVwCB{CAwAIgDK_CKsEGu@GcB@kBDoA\\wB^sA|@kBb@q@n@w@lB_BrBeAf@Q`Bc@`BY`AGbC@~B`@`Bb@n@VjBdA`JdHtD|CpAbAfA~@~@r@lAt@zAf@pBb@VBpAHrA?hAIxASdAWxAk@v@e@xAiArFyDfBsBrPkXVg@tCyEjKoP`GuJfAkBh@u@nCeDtA{AhPuNtD}CxEyDbPyNx@k@fCsB|AwA|DcDpEeE|CwCfQmOxCkCxCiCvHgG`A}@zF{EDUd@q@jBgBbBqBnGoKn@_Ab@a@p@g@AWhCmEp@wA~@qCRq@n@gBdBsFLWz@aD`@oBdG{Vr@eDzBmJ~E_VfBaIvBcLR_Ab@}B\\qAf@aCn@sD~BcMd@{BV_Bl@gC^yBdCwMbDyOv@qDbAgEZcAPQ@m@JeAN[LMXkCLuB?gAKmC[gDi@eDc@{Aa@a@O[Ie@?_BDWL[D_A?qBD}@RiAPaBGeB_@mCUgAmE{MQy@Ei@A}@@m@LsB?iCKiBS_BIU]cEOmAKcCCeBYeIOo@g@aAe@o@Uc@Qy@_AmD}AkDcBqEOYgAkA[a@a@s@Oe@_@u@m@{@WYMm@Q[Oc@QcA@mEEy@?i@PsALa@fAeE`@i@v@y@PORa@J]Lw@Dk@|@gEV_@f@e@P]Ja@ZuDHaBNcA\\}AFo@LkC?i@PaCRwBDiAIiCCmBJuBRoBRcAn@iBDMt@iB`@}ALyANaAJe@n@wAJMHURgADaARaBt@_DJu@@sAGi@IYIy@G[I{A@eCDmBSi@eAwAcAaBKm@@u@JUVc@Pg@F[Hs@Go@Si@Qu@KMK[KaA?oDFgFC_AMUMo@o@eCw@iF@_@Te@Pe@?{@IOk@cGS_Bg@uBOYkAuD_@cB[gA_@eAYkAGOuAaF_@}A{@aESmC?i@KuCBOCk@?e@m@iHi@iCCOu@wCc@mA_AqBs@kAk@wA{AcFy@aCkAgEoAkFc@cCUaAE[I[{@}EYkAMaAMqAMuCP{BJaDFeA`@sDDgBAsCEsCSuC[wA_AmCcAkBs@_AmBmB}AwAkH{FiAkAwAqAsGmG}EeE_FqEgA{AuBcE]w@U}@Gk@@yBPoDT}HJy@XcArAyDpAcEHs@Ay@GkA_Bj@UJqI~CaAb@k@Rg@TsQ`HuHrC_ZnKkEbB{HrCy@^aA\\}I~CwE|AsHvB}ExAaBl@kB|@}BzAiFpDoBnA}@n@cBfAk@b@eEtCKPmIrFcDnCi@r@yEpHaJbNkChE{C|Dm@r@}@hACRYf@yBpCoC~C_@c@]\\Uh@MJKJ]@v@mHb@wGFo@FONMb@oJj@yHXkD`AoNTsE~Emo@r@cKl@}HHsARaB`@aF?S\\eFpAmQJ_BJkAt@sKfBsTd@aHNeB|AcSv@_MDeATeCb@_GRwBtB_W\\{EhAgQdC{ZrE_n@dA{MHcBVeD\\kG|BwX?YNaBTwEj@}Gp@yJ^uENuBDmApAgPX{FDoBFoODeBHsVFch@B_DCmURyS?cFCmF?wPFuJF}GByLJyMLu_@@gP@iBDkA?gBDaF?wIFsNFsG?{CDkH@oMFuO?uGTmc@Rq|@FkKJqXHeNHkYDqGD}MRka@DkBByMBkDL{INy[Bw@JuJDoOx@{w@No[TqTDwBVcYZig@SmDaAgM{@yMOyAm@sJq@sLqBmXk@yJkCw]QkC]gEmAgMOmCBmCTeGjAsV?[`@cIlAgZPwEp@_O\\kEp@gGhBcQNkBtAwM|C_\\Bi@Z}BrAmLvDm^fAoInCiVnAiK^_EbCkR|@yFZgCb@_ETgCjEu^d@mEbCwRbCiT`CsQ|BeUlBwOFw@t@gHzBwPxDqXrAaLzAuLx@wFZ}Cb@{CJqAd@uDbC_RHw@|CqWdAcIHw@jC_RzIqt@xCaWfBePn@kFxAoNlAuKfA_Kb@{CdBoP|BkSnAsJrByNtB{MjBkNfLyt@Fc@bA}GlAcHrAeJd@oDPqB^iHJaBPsAf@wBb@iAbAqD`AwF~@_H~BqRnAuKfAkI`A_JhAcJ|@kJtBiXHwCXsE`@yG`AwJfBoUN}BHgCXcMLqLPcIPkGTiDpOagAzGiY~BwId@_Bx@eDt@eEd@iEfCcRnOcoAnAyKbAaFlB_I~BaKRs@hBcIjEuQfD}Lx@sDlCsKrCqLf@{B~DkPpB{IjCsJvFkRnHiWdAsCfCaFnBuCbCoClUkT`Ay@|DyDb@]bDcDbDoCXOx@o@hEqDtCkCrHwGnRaQxLaL~@qAj[ui@~AiDbBeEhA{BpB}Ff@aCxAaJNeARaAd@kBTm@j@aAbFqHv@cBPk@XqARqCCsHFoBH_AxAeHHe@r@oCzBeKlIa^t@kDpG{WxBuJbF_R~@}CnBkH|EwR`CwKvAeH\\yAtAkHfAkFp@wDJiADsA?_AEoAKqAqAkLo@uGi@oGOkCDqCL{Cd@kEXoAr@}BjAkCb@mATs@Lq@NiAFuALaFH}ATeCdHii@`F_^jEg]n@qGp@sIr@wGhBgS`@eDHeAdG{Vp@cCbBsErCkFl@wAbJcY`GmPdD}Pn@}B`@eArEaJjEmIlQ_^x@qAhIqPvD{GpByD|D}IdDaInFkLlDmHxF_LxOc\\dD{HzEqMfI{UnAkEj@{CpAeG~G_ZfAiEhN_n@pDsO`AqEb@cCrAmFh[{uA~DaRfCiL`BaIt@eCt@qBdGaN\\}@t@wBjDoKhA}Dj@kCpA{HrAeJ|@qGnAwIrByLzBkK`@qB~He\\d@yArCsIbDgJ~AuEDIfCkH`AyCvFoOnEgMzNgb@rA_E|HaSjIkVdGqR|I{YvAeEhCaIvAwEj@aBjCkJlPmi@rGaU|A{FtC}GpHwOvGuMdBqCjA{AzAeBlGcG|E}CzGeD|CeA|DiAbGcAjXsCzB[tKiAlD[xQmBdKo@nDYrEe@zBOdPcBnAOtD]b@ClFg@xJu@hW_CrHm@zZ{Cz`@kD~]_DtI}@hMgAhGm@|RyAjHy@`MiAzFa@pQcBbJqArJyBxC}@~CiApMyFrIwEjDcCbEeDbHsHrCoDpB}CrC}EzCgGdAiCvBkGjC_KnCmOFo@t@yGP{CXaH`A{|@PkW^_e@LuUDaOVsV`@eWdAqm@RaNrAcv@hAer@`@cF~BaVx@_HjDi\\|BoSzFee@d@mDnEi_@zX_mBzIcs@jD}\\~@_Fh@kB`BsDbF_K`McVrHcOfFyJxHwNzBsDrHcLtJiM~IyKjNmQnB_CnBmBrFyEtLyKbHyGrF}FpFoGjEwF|DqF`JmLpJgLpLyMf`@{a@vJsK|IeJzSyTjGgGpGcGfBeBzBoBpEkE`FoFjFoFlDgDdDkDzAcBzIcLtGyIhDmEbCsDlByD`GkMdC{EzJaPbK{PtS{^~AyChCcEfIaL~OuSlCqD~GyIlScXbGyHnAwAtAmAj@[fAg@x@W|@Q|Fc@zJi@zCIrFFpBHvBTpIdA~JrA|C\\rAHbBB|CGlBOhBYbZ{GlLsCbGaBhIkCnLmEjEuB`BeApDsC|AwAt@}@bCcDdAeBdAuBvB_GlAcEhD_M`BqG|BeI|AkGZyAZeBxAuKN}BDaBE{CMuBSiBSoA{@gDaAgCqBwDs@cAm@q@_PePsBaCwAuBw@sAuAuCi@sAw@cCo@iCYwAy@}ES}AOmBUcFE]AkGP}FZmEj@qLrAeb@Fu@n@kDxCyL`E}OzJm[zBwH^{@Xc@t@cAnDwDzHaHr_@q]z@aApFaHvFeIhDqFrA{CzB}F~B{FpHqOlA}BrBuEpDoKbSgo@Tk@j@gBjGq^l@qBPc@x@yAZc@l@q@pAeAfAo@lAe@nKiDdD{@pEoA~Cs@vAa@zAk@v@_@t@i@lFiDrFkCJGVGr@YdD}AhAq@|AgAtFwEhIwG`BuAdHaHni@sp@hA}ArA{Bl@iA|A}DbB{Fn@}CxEiTlAyF|GuYxBaKrBuIjAsFtF{XtBiLjCuMjDuQxBwKnFiYzAkHh@_CPeAtAsH|Lum@\\yAXiBPiBDyBGeAOeBm@wCWaAeDsLWcA}FuVu@}D_@}C[}DMmCEoDF{FJ_Dh@oJ~@gJ`EkW~CyP\\aBpBqIt@wEl@_FlAwLn@aF`@wAj@gBz@{BbAoBvDiFlBiBlCoBfAm@xDkBrLyFdL}E~F}Bzb@oOb@QdDiAhAg@jBkAr@o@z@cAT_@d@_A`AgCrEiNfBuFnAsDj@gBtJyYfAsDf@oCx@wFf@qFRsB|@wK?]b@kF^oCd@mB\\q@Re@z@qAjBqB~DqD`BuBn@eAh@{ATq@`@cB`CkPdC}OlAcItBkMhD{V`EyYx@wGvD}WNkBLgIDs@VeCToBVqAl@}Bz@oCpBuEtI_RrIsRvBkEdAgCbEqI`Sqc@fAgCh@wAt@{AnAwChMsX`AcB~C}Gd@w@xBsCbBsBf@{@dCkGvE_Mf@uAfCmGb@w@jB_DlBgC`FsFv@eAxIcKzGgI|Xe\\xHoIvKqMJKd@o@^[~GkIrAoB\\c@jAaBr@{@b@s@xAmBx@uAl@s@lFoHx@eAvC}D`CwCdBqBhEoEpD}D^e@POvBoC^g@R_@dBmC|AoCdDuFt@eAvBoDzNeWLWbDsFbKkQxHsMJS`CqDd^yc@xBiCpDuEdJaLpBgCbNuPfC}CvKcNrEuFxD{EvCmDnCyCbBqBxTqXjBqCbAmBn@aB`@mA~O}m@f@sCZkIFsBHw@R}@zEwKh@}AXcB`@oJHy@Li@DUbCcIpCmJfBwFtBsHbByFfDwK`D}J~IcZfDqKPe@bCkIzE_PtD_Nt@kCxNse@lCkJ|@qC~@iClEkO~DuMnAyEzAgDr@y@rAkAvCoBvIqF|IcGtBeC`BmCfB_Fp@}BrAgGtEoW~AuIvBeMj@cC\\iAf@sAz@mBnHsMzXuf@|CmFfEqHb@}@zA_E|G{TrTks@Pg@v@gCnB}FlMsZbBkD~E_JrFyJdNgWr@gAhA{AhHyIfMgO`PeSvF}G`B{BnA_B`OqVpZah@z@cBh@uAnDeMtCqJrK__@La@zM}d@fF{RdCgK\\kBTcBjCq[z@gLfCwYTiB`Jkj@`Hcc@rDqTn@qER_CB}BCoB_Con@A{AByADeArBoT|Fwl@~AwGjPen@VkAvHwXv@aC|S{w@x@iCn@{Bj@cBtb@k{@tCyFlKoTxN{YbPa\\xJgRjFeLrB}C|@_A|McJ~CqBn@i@pCoBx@_Ap@kA|@qBjAyCpCiIfCiHvFmNh@}AdBmEf@kAbNw]tAsDlA}DnTweArUkjA`ByHb@_CbIk`@\\iCXoDRcE~@gPR_EZwEXiBXkA`@kAhCmGHWnR_e@x@uB|BaGn@iB\\aBXiD@kALeEHcGLmDVsJd@{HVaC\\iBlBeLbA{EhAaEdD{JTq@hBqEx@eBR[hCuEzCeF`I_O`CgFz@sBjEaMXm@dFoO|HoT`JkWrCoIRs@zCgIfBwFN_@nJoXhDoJbBeFjJ_XfBkFfPae@jCqHtEeNbK_YrTon@`CqGtDsK`GqPnAkDpBgGlBaFbUoo@`Pme@b@kAhDkK|AeFtMu`@tDwKxFkQpCgIdAcDnN{`@Ri@nEyMlCuHrEuNdV{r@|@eBlBaCpBgBz@_ApDqDdH_HpZiYd@g@xEoEnDmDlG_GrXuW~NwN`MqLbEwDp@s@z@u@lK}J|FyFrB}BbAwAjAwBrSke@tAuCf@iAbBeD|ByEh@uAl@_C~@kEb@aC^uARa@^gAh@gA|HuLVc@p@qB`@kDh@eEv@{Cv@wBbAqBtAsBjD}DdBcCx@qAlGeMt@qA@_@p@oAVwAB[?s@l@AP@|Ch@RA`@Jr@a@fIaJhFcG~@aAlC{ChC}Cj@}@BMBEDAJ@FB@DZ@pGExEOvD?PDd@RdBpAZHhTvOb@ZrAv@fAr@lBxAn@j@f@VXPnA^rD^dBFrEBh@AnDDj@HTCLH\\[LGZU`Ak@v@i@h@a@lAoAjDyDjFoG`C}CxEqHh@iAv@uB~@NvAL|BFVMh@MtAe@rAo@l@_@nCgCxDeCfCgCV[j@aAlEiJLWz@xAh@p@NNXPpCpAdAr@vFdFnCpBlIxGt@`@h@VnHzBhGbBj@JfIrBrBb@rCh@\\BrARdAT~ANvDJtS@zFJdGVpHVdEF|@FhCVdGrA`HlBlBb@jBZhBP\\FtD\\rBNtMlA\\JbCLr]`DrDj@bBP`FZx@B`BLr@Ph@RfB`Al@`@pAl@zCdA`Ab@|QvHzB|@pAb@fSxCvDp@dBRzA^hN~BjCZrEt@|YxBhCN~A?bIOjIC`A?TLfQ?pEDfECxB@l^fBrPv@lMz@pD`@lE^zADzHZjKh@tJ^vLr@xQt@|E\\pALrOv@nDJ~EVfCHnRr@vCFzBHlCDvEBzICdBGpIy@rAKxAItBLnARh@Nn@VbAt@rHnHzArAxA~AfHbHxA~A|@j@~@`@xJhDxKzDhAb@|KdDtGtBhGvBtBn@zDrApQbGtI|CbCr@`X~IbLnDnDvAjAb@bAd@t@`@|BvBX`@~B~B^XzA|@bBt@lBt@tEbBv`@bPlC`ArF|BZHzEhBl@N|SnDhYrExUtDfQvC~Fn@fFv@~C^rAJrF|@zBVrCd@fBVzBb@`Fr@vAXvRpClXbEb[jFnEp@dATZJj@\\\\Z`FtGv@t@z@`@~@PtAFvFKvHEpLJfFJBUX]PI\\CnCDhCIbC?hBTv@ZhAt@nS`@`M\\pKLvIZbLRlBHzFFfCHlVd@pO^vDFhEL`AAr@@|MZxBVxB^~ErA~Cp@~Bj@vBd@nDbApE`A~Bl@|Cn@fEfAzBd@dIxBjB`@p@H~A?z@If\\kEtB]bH{@hAErB@tH^~DLjEDhV`@fB?vILdAA~ENzCBv@Dx@NhStBxKbAxDd@zFl@zJhAxAJxAE`F]fGi@lEe@pCc@lOwBbAE`ADnFn@pCTtAFhA@lIElE?pEFjCVlBZzE~@jFhAjBd@dDn@vJrBrG|AvB`@xAPtARvCVhC^jFp@rGr@tOzBjIpAlL~AhHdAnIxArNpClF`AtQrDpBf@pU|ElK~BzX~FfOvEvGzBp@Z~MzE`KzCjCn@dBj@dA`@fBdAdFnDl@h@TNxZ~JnQhGvZpLlDxAvEbB~KdDb@PzF|AtDjApAd@r\\|NxNdGnAd@~YlLtKlEzIhFnDpB`DpBrJpFvFdCpBbA|EtBz^xPdMfFhFnB|@XrATv@FnADn]PdE?dCEnPKhCGvXItb@m@zFAfLQ^Ch@KxGcCnDyA|@[dAY`AQXCnGc@rHWtGe@vPItLAbLeAnC[dE]bCOnFMvEWpS{AfCOhBBpAHlF`@zI~@x@NpD~@~TjG`I|BjE`AvEpA~D`AbB^nB\\hYfE|AXv@RpBt@xQ|InFdCpCtAvAv@jDtAx@P|@NpAH`B@r[aBvIg@`Ow@xBKpA@vBRlDh@bALlAH`RpBfGd@`MjAnNhAdHl@v[nBjDX`MjD~Br@vbA~SjOfCfDp@pBf@~Af@~@TbBd@tC^tCVnBLbBP~h@tE~Jn@~Sr@fHHbBHvMP`HPtNBbG`@rH^fE\\~ADpAPrGrAzI~BtCp@bD@`ACnBSnCy@fAa@hBc@ZEtFYpEOjJDpPcAtIy@p@ApCLtBDdH^zAB~CNvANhGV`BJ|DJ`Mt@vBDtCCtA@dBCdAGdJiAbFi@p@DbBCz@Jt@LjD|@bC`A|EzAz@LpGvAnLtBpAXvBr@xJlCrA`@jATrQtAtDPtIj@jAHj@HhN`AfHNv@Zl@DjEr@lZjG|CXlRpArAP\\ChATlA`@tB|@tBhAZZzAx@`Ax@~AdBrArB`ClEnBzCl@p@nBjAdBh@pR`HvFxAlPvDz@PdGxAtDhA|FzBrAj@|@h@r@f@|BpBrDnDl@b@h@ZdChAtAh@vEzBhHbDrUtK`Bj@n@JpBNbJMvKQ`ABzAPlStEnGbBbE|@jItAfPfCfATtSzEpZnHbDt@`C`@r@JxPvAzEf@|Dp@tMrC|E`AdNhCjRhDzB\\rKjBdCP|Jf@`ENlR`AzKv@pEVxALrCRxAN|JrAzR`CnJtAlM`CnIbBpJ`BpAXbEbBrMhG|@\\bAXpCf@~B\\zBf@rA\\jL`EfHzBP@x@RhAN|F\\VJhBPtF\\~CZ`C^xGbBrRpFjMnC|GjA|Dh@`OdC`^pFtBl@jCfAbQpI`Bt@fBn@dEdAlCd@jQvDlDp@jPdDjF~@bGz@~Cn@f_@lG~ItAfB\\lGnB|GpBfD~@r@NbCPhBD`PHhPLhBH~@LhAV|JjCrLxCjBh@hAp@j@h@vEzEl@f@tAj@dDv@~Cz@tJvBlATtAZnA\\NB\\@tEfATGXAl@Br@?\\AhAKz@OtBq@VCt@]pEeCfDeBXQbDiBxA_A|A{@rAm@jAs@bDaBxCcBb@[hDmBlAo@~CeBdCqAHGdFqC~a@_UpCsApCyAd@Or@e@dHuDnMwGVOr@g@j@S~K{FzGsDnGaDzS{KtAq@bE_ClGaD|MgHlHuDNKlGaDv@StBYdA]fB}@p@QdCq@jBa@jF{A`QyEvCq@nAQrBGt@K\\A^DdBZZLr@PhBn@bBx@~JpFhQbJf@X`Ah@|LpHfIrErBrAfGvDdCtATTlDlBbK`GtUnNf@Tf@HjBfAtCxAl@VdB`@n@HzALdACzBSxA]xBu@rEeBjE{ArMkFbLiFfCiArNsGjFqCbN_FnBm@bGcBvQ{FpIgCbIqBbWmF|Ds@`NkDjKcDxFuAzG{AbEy@rG{@bJy@~BQnD_@zLgA|AMrAAjTBlMCzCBt@ApBDdE?`BKjAKfBWfCq@fCy@fEoBzAcAzA}Ah@q@j@w@j@cAZs@b@mATw@|@eC~@aB`@c@hAcAl@]jS}IpcA}YxNiE|IqCv@Yv@_@|CuB|DeDpEqDp@c@hFsDrFaExGuE`M{IbD{BnKuHb[aTlEuCh^sTfG{DrSmMdA{@hAcAfAqAbDqEzSsXx@s@f@YbBu@tAa@xDq@dOmBx@S\\Mn@KbSmJ~BoA~FkD~AgA|@g@fD{BbAk@p@i@dCyA|KaHnA}@fCyAbGuDr]wTtC}Az@c@rAa@pBc@bBYzI_ArRiBpFo@bIw@b@I~I}ArMcClBa@fFsA~MaDtHwBv@OtBk@`HyCdFcC~NmHhBs@bHmDrLwF`G{C~@_@nEuB|FuCbF_Cd@YrCsAbEqBnJkEfCsAjW}LpTsK|QwI~MwGr\\}OhVuLrKcFvAu@fNqGdB{@tEeBhFcB|C}@hHiC`e@mOhIuCvd@oO`AWhGwB~C_ArVkIlDqAfIiCnN}EtA_@lFiBxMuEnA]pLaEfA[nHiCjXcJlFmB|RuGvGaCps@gVdHaClCaAfH_ClE{AzBs@|QuFxNyE``@_Mj]uKnIeCdEwAnKiEjMcE|\\sK~q@{S|KwC|@a@rA{@h@e@vA{A`BuBzAcBpA_AzBcAxA]|@K~@CbA?bADnEZfBJlBEj@Ed@GpAYbGcBfIgCxBo@rYyIfIcCdEeAzAe@hFwAz@]fIyBhDcAlEmAn@UlEiAfPyEdUmG|c@yLzDcAbOaERCvDgArl@sOfPeEz@Ydk@yVzKsEpLeFjEwAnFqBdDyAtJ_EzK{EnGkCjKwE~q@_ZpMoFhRmIrFaC~E{BvS{J~g@oT|K_FrEiBjd@wRpAw@rAaApAqArEgFn@{@^_@zBkCvSyXrDiF`IsLtEuGfSkXdBcBbAm@nAk@nA]~@MhAG|@?x@DbAJnB`@vEdBhd@vRfk@`Vz[fNt@TjD|AtOrGn[`NrAj@dCz@xJdEbAb@h@ZvDhBvGjDhCbB~DhDxF~FxArAzCfCbBnArAz@hAp@hFhCfE`BbBj@fFpAxCj@nBXdFj@~Ff@`OrAdi@lErP|A|MpAzE`@vFp@`Fr@xEh@`VfDxKtAnHf@dHXhCCn@Ex@KfBi@v@[xCyAZQvAiAf]q[xA}AzAsA~@s@`BcB`M_L`KuIzM}KrSqQhDkCnQwLb]aUfhBqlAxIyFv^eV|OqKjJcGn@_@ZYrQkL|LgIvRiMzI}FxoAc{@hJeGzEeDra@kX`FgDxCyAt@UrCq@hGuAvJqBtLgCdbAkSzAa@bBk@vAu@jUqPvR{NfOyKfBoAzWuR|AoAnJ_HjEcDl@a@lA_A`I{FzB{AhHuEdH_FzBwAnLkH|GmErBwAdImE~E_Dx@m@\\[fC{CdBaCdFuGv@gApBeCJOdEoFh@k@t@o@`BkAhq@qZtUeKzLqFfEiBn`@oQbEiBvKaFzBaApSmJlH_DdCmArHeDxSoJdLcF`JcEvAq@jCiAzOkHbKqEfFcCdKsEtQmIdCgAzFoCxB}@nEoBbOaHrHeD|E}BpCmAv[{NpK{E|FqCnBq@jBe@fCc@nX_ElNyBhT}Cn^qFzP_CtLmBnHgAr{@_MlEs@vUgDjFy@pEk@nG}@rIsAtCk@bFeBjAi@bBs@fCiAdAc@pLgF~DmB|M}FbH}CXKhBy@b@UXKhAi@pBy@vKeFzGwCr@WtFaCfDaB~K_GlAm@fAa@jBy@tKgEr\\qOjRsIbGiC|DkBhDgB`QiIlKwF~a@eSlV{MbLmGdHwDVMnN_I~EiC|C}A~IcFna@yT`PaJ`LcGpBiAhE{BzAcAd@_@l@s@\\c@fAgBbAuBj@sAxAsDV{@`@{BTqCL_EFaFNkCNoHTwBJi@T_A\\aAXo@r@gApAyA`LeJpJeIjFiEbAs@bAc@rAc@x@StBSx@CzOKzPSzA@fBGl_@a@lAEt@GbCg@~BeAlAw@v]uVj\\oUrMkJxC{BzG_Fd@[bAk@`@S~Ai@~A]p@IxJqAlVmDvAa@l@UrAq@b@Yv@o@nAyAb@m@~Tu\\dOoTdEeHnGoJtMqRhI_MnBkCj@o@n@k@hBmAfCqAf[aO~Ai@vBe@pAOlCQdGO|ZmAxCWdHk@bLu@~Iq@xLoAlIo@lHm@fIm@rEc@tIs@ti@mChYoBhb@eDbQmAv^qCz]gCjRaBdh@sDhLaAvSwAzLg@dMy@xIq@lBI~BSzKq@fHk@`Hs@`D_@rFi@dCW|CU~Fi@fb@mEfHk@pYqBfPoAnQeA~RsAbHo@lDo@lAa@~@WlG}BpKqDnEaBdGaCdG{BrN_FxIaDdDoA|EcBlNeFhG_ClFwB|m@uTx@Ux@]zMgEvDsAxYmJrDiAvMgEpBc@vAQbAKzAAzIN~BLhCDlJJdNRrVXrAClEYvG{@fKgAnGy@tYcEbEq@jJqAfLkB|F{@p^_FvP_CrLgBpH_AxUgDpMaB`JkAlWmD~IqApLiB~i@{Ip_@{FzO_CpEo@lFm@rG}@fEo@|AYrDe@~UsDnOuBzJ}AlTaDdQaDdNgB`h@yHnG{@pq@uJxMqBpIwAnKwAlQuBzSwCfDi@fx@mLrW{D|HaAnMgBdLcBrTyCnFo@fPaCnGy@bN_CbQqC`NcCxJ_BtEy@fAWtAe@~As@bPqJj@YhFuCnG}DbHwEfKaGxBeA|Ag@dBWhCMbFEvo@kAhIIdNUn[c@p`@m@nx@{@nCOxC]|TuCtB_@bDw@vVqGnOyDzXgHfCu@hBeA`HsFlVkSnLqKfF{EhHuG~AaB~DsEjP{RvBcCrAqA`Au@zBsA~OoIpM{GpZiPlQiI~Bs@v@OtCQnVZrKH|DAbAEpOuAha@yCxLaAvAIrDWnNu@lAK`AOrBq@p@]~BaBrG}FdFiE|H{GvMwL~@u@x@g@zBw@bAUlCWd_@oAzAKlBUt@OnAc@jFcCbFgCdDwA~E_CJGvBaAtEyB~W}Kv@_@hR{K|ImFpKmHzEqChEsBxI_E`[yMjEoBlMsF`FoBxE_BnX{IjKeDnH{BhMcEvUgHv_@uLfEgApOgDxCc@fBM`VaAdEOjg@_CbOm@nCQ|Gm@jFk@`V_ClAMv@OdCm@fBo@lJ{DjFqBlFaCtDgB`UcJjA]pBe@fAKfAC~MN|A?~BErBGbQ}@fEQzBMxMk@zDIpA?xAFjALtDl@zMdCfJpAnDn@zJxB~B^tBV|AL`JXzFVdENfLh@fJ`@jFX~AVxA^tChAlKhFnI|DbYbNxQtJ|RzJ~B|@XEL@tChAbAZj@HnAB~@A`BYp@UtAy@\\]d@q@dCyGpA_El@uAnBoDnAuCLKLa@p@oBfEmMnBoGp@mBZu@x@uAZa@vAsAhAs@hAc@rAa@rVkGbFyAxMaDnO{Dbj@oOnAWr@IvCUpCGzDE~E?~CGx\\Q`CInAIv@Mt@Q`Bo@z@k@ZU|AaBl@iAz@kBTo@FKlBqFlAuCh@cBz@sBt@uAz@kAj@k@f@_@h\\sQxCyAp@a@l@e@d@a@`@e@r@gAR_@p@gBfB}JxDcX`@qDT}Av@cDd@sA`@y@b@s@d@o@hAoAzBaBjFwCbS}LbEeC~DoBpBw@vJ{CdFiB|BcAnHqDhJkFrAs@zHkDzBkAzA}@pBeBvAwA~EmFxByBb@g@rAoBn@iApI}PjDeI\\]b@m@|@}@`@[`Ak@`A_@lB]|@G~@?\\DZ?pCl@|BZjHjAnCj@|MlBbDn@vCr@xIfBlAHrAEb@Gd@Kn@Sd@Ul@_@`DoCPCnIeI\\a@fBaBl@e@n@]`@Q`BY|Dc@nBYzAWrAs@rDyBjAi@NMn@SdAMrAWlBWhB]bH_A`Ce@|JyAjBc@dA[xDqAdAg@nDiAlAg@l@K|@_@p@QrIsCnAc@bAe@`F}Arl@kSpDuAtLyEdHuCtGiCvAm@lBu@hA[dAEnQStNIpPQfQMbEGjFClB?bCDtLHzFHjB?bHJnAJdBZx@Tv@`@fBrAjBvBtIfMhE~F`GzIxGjJd@b@XRjOrHt@Xp`@|Hf@LdGjA~FnAh@Rr@JjCf@tFpAbAPd@LjAR`ARd@HbFjAhOzCvAZhAXP?JFd@DVHbGtAjBZvBh@N@h@LdB\\x@XdB`@tEr@lEdAjANhQxDhDn@xCr@x@LzAb@vEx@zA^vFhAtBd@bBXnBb@XBn@Rd@FtCN`AIbBYrC]zDk@`CSnA?tFJpKAvFDpNDhAB~MDpMFjNB|@GxADrUHbUDzICvCFlPt@nCHzDPjENjA?lADrKFvMFfBD`ADrAJdARvLfBhMlBzQjC|d@zFrP|@vPdAvRfAtBBnCKrBMfC[hCk@rA_@~B}@zBcAdU{KlAi@h@SfNmDhc@sJtKgCxAYrAStAKbACnA@|DPjENtDN|DD`BO~AWpL{Cb@Il@IxAG|KHzIQb@B|@LxE~@lKfCtAPdADxAIh@I|Aa@nBiAhB_AtBq@pDaAhBi@~Bi@bCYn@C|Ca@d@IdA]vJkErG{ClFaC|IaEfAWbFa@zAQfAWrMmFti@}\\v@a@z@YlDm@jEi@jCS~C?zDDbCHbDPhZvAhBP~AXzA^fA\\nAl@|A`AhAz@z@x@`CrBrEbEpD|CNRv@p@jBtAz@h@|An@h@P|@N`AHxHd@tR|@v@BbA?fBQfA[^MfAg@hAq@nAo@vAk@l@MxAOpAEf@@hEb@tU|C|B`@`AXf@Tv@`@xA|@hAl@j@V~@VbIjA`Fh@hA?lDYlFo@zCUjI[bHQn@?pDPhENhMh@lGPv@?zCKdAGdEGf@Bl@NjCr@xI|BjBh@b@HlBPdC?~@GrBIvLk@`AAp@@fMnAfJhAdADtBA`@CtASzBg@b@Mf@KvCw@f@Qr@Sn@WbBaAb@[zDmDtCaC~@m@rSkHjEaBnFoCdDoAvb@wMhAg@|@]|[iObPiHhFyBnAWr@Kt@Gj@AvB@l]f@bCBnV\\xE?v@GnCY`BUfAWhC{@xB}@xBkAjAu@fAy@`A{@p@k@n@s@r@aAf@_Af@qANo@ZwBNmBfFwx@N}AP_APu@b@cAlAqBxCaCdGaEvByAfWgRdEwC|EeDfBoAhAu@RIh@Sf@M`@CnBLpFt@v@Bp@?tBK~CUvC[`E[f@I`@STQt@w@vBiC`MiOZe@dAaCfJ}TbA{Bn@eAxCqE|@mAx@_AtFqEpKeIxHcGnPeMtEaDdNgK|RaNjByAPI`CeBdBgAxCeC~C}CfByAnIoGlEsC|NiFxE{Ah@SvA[lGaAnIsAnPiCbCc@`C]|@SzEy@zDi@dBIz@A|BFn@NdAP|PpFnGfC|Bv@vBb@|@TbAJvA@|ASjE_@hEe@nKeAz@K`CQdHm@|AI|Js@lAC~Kw@`CMpCYnC]fGgBfBe@\\Mn@K~ASt@En@An@@dAHt@Jl@L`C`AxAd@jBV^BbDLfCN~J`@hAHrCLhADnAHxJb@pCDxDV~BJvB@r@Fl@?xEW`CSdDc@fIu@dCW`WcD`Fc@lFa@t@CbEPz@?~@Kp@OdA_@rAy@zBiBtAe@zA[xD}@dAOxG{AvEu@`Gu@fGq@rBQ`Hu@rAIdDc@h@MzAg@rAg@~As@fDuA~DcCx@m@^Ml@MxBWrIoAzEcAtCs@lEaAbBe@|JaDtE{B`CoAjEqBfKuDtBs@nAY~AQvGaAvE{@pGoBhDgAv@[`Bg@z@]vBk@rA[`Di@jAQpM_CZEjF}@~EmAfDgAl@UdAg@~BsAxCkBhHkE|DsBpBcAZKj@QjGuAdGuAzLoCdHyAvEy@|C_@lDu@`De@dA[z@]tDwBpCgBvAeAbAw@rAq@x@YbCu@jCq@zDgAz@_@~@YxJaCbD_Ar@K`Cw@nGaBbBk@rEoAtDaAlMiDjAW|ASpHsA~FiAt@IdH[tBOhFQfI_@tCAnQb@hLHjIHtBIv@Ib@IjFkBhOyFfEyAhB[pFq@zC[lIaAlAM|IgAn@GpLi@xDStLi@pFYtLs@fCYjHsA|Dg@lBQlX}BdGm@fE[rc@wB|TsA`He@nAElANbQ|D|MdEnOvEnIjCvYzHdQnDpI~A`S`EdIhBjDhAvMzExFxBrEzApH~BhGfBnDlAtBl@xEzAxCz@pd@zLjRxEpMfD`FlAvNpDvNhDjBf@|H`C~JtCfGlBjElAdBl@~DjA`DdAxSbGhLpCdAPvAf@xR`F`KzCpKzCxSpGdJhCdQjFn\\~KrR`H|PzEdCp@nN`EdC|@rYzIbHnBlQpFbLfDf]jK|DjAzJ`D|DhAvBf@|OlEzCr@hBf@lHtB`WtGtKvC~Ah@zATnKbCzp@xOtEjAlQzDfFnAdDx@jEvAnKdCzUdGpPpEfBd@rShGvBt@lA^hBr@^?|EtARR`BZvIlC\\NtBr@~@VpGpBrBv@hU|Jn`@nPtCpAlF|BpAd@`SxF|HxBr@TNBf@RfIhCdC|@vAj@~VpLtGdD`KpFxDbB~ElBjA`@zA^hDn@lEhA^BhGrAjB\\pIlBvGrAbD^hBNlD`@zBPhBRjBVfKfBvCVhB@~FGdPI`Jk@dNiAnCS~@K|@O`B]pImBzBa@p@O|Ba@hAMv@E|K?`AG|CGbEDdABf@DZDZHbPfG~At@tCbAxCr@xBPnLf@vIGhKUh@@zANnEl@zIbAt@RXPfPvKzFbElDpBzJtGn@\\vD|AzEhBx@`@lAp@~DfCnBhAtFhD~@t@z@jAnC~D`JrNdA|AZ^d@b@|AbA`AZr@LnGt@rJdArGv@nOvBbLfBtNtBpBHxCMjLs@lBWb[cKjHuBpIqB~Ae@rb@wKlDiAt@[b@WhBqAbDoCrGcIx@{@lCeChKeJfJoHbRgNbPcL`DgCzEkDfPwMl@c@j@YvBy@x@SjCMvHGfB?jCQvAShN}BbSkDzN}EzFsBzGgCjNwE`AYn@MrBQzAGrG?dGB`BDlK@xIC~RXjDHnSGxBIhCOxBSpC]|AK~BCr@DpARfBTrBNfJ`AfEh@pBNtLLrCCxDFpHa@tD[zUeCpCUjI}@~@GrAEbA?vKg@bAI`AOfASdGyAd@KbGaBdCe@jG}@zIaAzRoC`Cs@rAg@zD}AnV_LzAc@xCs@f@IzHGrb@F|@DzBV~GfAzA^`@D|Ff@zNx@jBH~@@lDMvIBnG^nF^|ADx@Al@BrDP~BRVB^KtBBdAFv@?dCNZL~ABxBHrCPv@?J{BR{JHkANcAj@}Bd@eAJGLEj@cB|@{BbB}CrBaDl@u@bA{@j@]fBs@x@UfGsAtEu@d`@sCfGk@`BQ|AMfAQ|Bg@~@[jCgA~@g@|BaBnEoDxOoM`A}@rEmD|`@{[vN}KxLuJtDqCxIiHbKaIxA{Ah@e@`AiAtAaCvAeDNk@f@_CVwAlCeUpDaZj@iFfAaIPgB`BgN`@qC\\wAHc@~AwDn@mAtBuCpAqAzDeDtC}BfUiRxCgCzg@cb@rCaC|^{YbO_Mb]_YbBuA~@o@fDwCxBaBlXaUrC{BpCoBt@g@~Au@jBq@|VsHfHcCpBy@dMkGfLaGzFmDlYyPrA_ApBgBp@u@z[s`@~BwCtGcIfIkJbBsBlMcOfDwE|LeVjCqEd@o@tDiEz@y@fKqKxNqO|GeHfCgCjB_BtBwAhDgBjBw@nh@{QbRqGfOsFlCqAhC{AtDsCtLsLzE_FbA}@`HaHdImHtB_BvAcAlWeQhEqCrPaLxb@wYjBiAhB_A~CsAxt@{\\~eAaf@hEqBjBgA`DeCfSmPvVcSlDcD|DaEdUwVhBsBfAeA`EmCvFeDvD_C`CsAvAo@~Ak@dA[pB]xBYjWqBrCM|@IzB_@~C{@jQwHlMyFjTmJpd@mSnEeB`Bc@fB_@vPgBvRgCnLyC`AUbC_@`i@iF~Fo@|A_@nAe@zAm@`Bw@x@g@pD}B`NeIjHeE|LmHzBoAtBsA~EuCxHwEfU}MbL_H|A{@nM{HdTyLfLyGlDiBjIqDvD}AtMyFl@[fPkHr@a@`A{@^c@Ta@^yALy@Bs@I_Cm@{IGwB?mAD}@ToBLs@Pm@~@kCz@}AlBwBx@q@j@_@dAi@tCmAtV{JfKiEtOkGpDoAfAOv@EdA?jAJv@TxShI|FbCj@RjAZv@JrCBhAI`BYxAk@n@]t@i@fQwP~VyTnJiIxB{BjAeBtGoNj@uAZcAZcAtEcTdCcMtBsJfAqFhFqTnEwOlAwDZw@hAuBnBgCn@s@~HyH`FcFbGwGzA}AjDuCzJyIv@w@x@cA`CgDhDcFnD_FbJyLn@u@dCyBrUwPbJgHzGaHj_Am~@~\\oY|AuAnAoAxA_BtAkB`IgMnAkBxDqGlHeJfh@uj@xPwQ|WqXpGgGrPuNbOaMzCwClAsAjCeDhToYnC}DrB_CbA_A`BqAxSsNnB}Ax@}@`AoAv@qAv@_Bl@{AdOic@nBiGvAgF~@sDxCcNtDoRnGa[~@kFd@_DxBmLt@}Cf@aBvAwDrY{f@vIcQxRqa@nGsM~@_Bp@cANW|CkE~LqPnR{UpXm\\zIkK|c@_h@dFeGxCsCdAy@vByAfByAxHaGlL{JtJ_K|ByBfCgBzIeF~BuB`@_@pBmCfF}HzEoJpBmEbGsNdFaMnU}f@r_@o`A~Z{w@bC_Ht@iBhA{BFS|@iBhBuC~@gA~EoGlDgEbGuHf@u@d@{@~@mBt@yBd@gBvEmRxIq^tLmg@xEoRx@mChCkFz\\_p@~CoGfFuJxD{GrAuAtBcBbDgBxJ{EpLsD|SoGhYcJpScGhJuCbAa@`Ae@l@a@~AsAlh@gm@`EeErLaOlXg[hDaErL}Mp@m@pCgBrCeA`Cg@zFw@hCMxBKrJIrSEjGIdGKvFU~PeAlX}AtOk@dp@sCvE_@za@yEvC[zBQr@KhFi@hDe@xCk@pF_BjBs@jCoAvEqCh]mTtSqLrDgBTO`A_@jFsCrE_CvNcH`DuAlBs@~PuFrAe@jDeAxIuCjGuBzZcLnMuEjEeBvHsCrJcEbJoD~Am@fEgBzD{A|By@lCkAdBy@`CqAbC{AxByAfGqEt@e@fGmEhM}IzGqEhK}Gf]uSpGmEvCeBrJkFb]sSdrBioAnHgEtRsJrZcO|HqD`CiAbLeFdEuB|SwJhNkG~MmGvj@kWlFeCtA}@rImDnFiBvAi@pCw@vAYtJqAzFo@tGiAjBc@vFoBvCqA`IyE`D_B`KiE|j@eTl@QhB_@~@KrAGl@?xBHtJfA|AD`BCj@EtDi@fEgAdOeExy@qTtXmIlF_B|MuDb@QrCu@tMwDzEkAnDgArF{AbHwBfCmAbAk@bEsCdEwDlE{DjCkDpAaCd@cA~@yBfIoUnCmHnDaHl@cAnCwDnBeCfKwKbF}EjBwBzAaBbCuBjBqApAq@zCoAlWqJlAm@zA}@z@m@v@s@~FoG~@y@jCkBxGqEjLkHxC}B~NaNp@m@hf@sc@|FiFr@i@zBuApE{BfCkApLuFpLmFdGuC`CgAzHwDfV}KbLsFdC}Ar@i@jBcBlVgSnP_NdImGp^kZhL_JhSuPvm@kg@pEqD`BmArA}@~DeBbA_@lMqEx@WpEcB`AYjHgCjBs@ba@kNnGsBdYmIlM_E~WaI~FcBtNoEbOmEbAa@zBcAdBmAhAaAzA_BrAuBxDsIxAmDrBkFpPw`@fC{F|CyHjDkHt@oAp@sAnAsBjFsGvBmB`CsBp@g@hEiCrAu@zCqAnEyAdQsElOqDbJ}B|IcCv\\oIz@Uhh@qMfCm@~JgChLoCzQqErAY`OwD|NoDzFqAzDeAh@Sz@a@nAy@lB}ArBkBbWcUtF_FlDuC|EkDvAgAvMeJdE_Dz@y@TWpAsBX{@VaATmAJmBFuFFs@H]d@cAhAgAhAo@p@c@nHcExDcCb@_@bA_AvAmBNYjDeFfE}HpAgC~CuFnD{G`E_Hr@sAfJ}OrCiETi@fAoBhDkFxBwDFO\\c@~CmFpEkHrBoEz@kCn@eBJU^iAvAgDvEmJp@iAvFyKfAqBtFyKZq@jAwAbAiAzB_BpBqAz@e@bEiC`KgGpFaErDoDxFoG~EyEbIeIbH_IxQyRp@w@jAkArE}ExEeEzEgDjFqCvCcBRO|@_ArAqBLWbB_Gd@uAbA_CbI{JTWhD_DfV{S~EoElCmC~C}CrCwC|Q}TxJcMvEeHrI_Nh@w@hBqBpCyBrD_EtBcE`GgN\\}@`CyErAeBnXo[`CaDtB}CfBwCzByD`G{JfAqA\\_@nAy@nAg@|Bm@nAQfB]~KcC~AW~L}BpLiCrBi@dAc@v@_@v@i@tDmDrMoMbCeCfAeAvFuFnAuAhBiCzB}DrCkEpByBdFcFdFsF~BoCtMuMbF_FbFwExD_E`F{EnCwCVSdF_FhAkAjCiCzE{ExFyFvCqC`@c@dDiDdPwOdDgDfUaV~K}KxQuRhBcB`O{NfAkA|BuBtH{HfAkAbDkE~@_BfHqMfJ}PHUdD}F~BoEd@cAjBqFxAsEzCcIbAeChLkVlHkOnBiDjBuCrA}BvAuB~HgMxD}Fz@}ArHsLjBuCxTk]h@q@|DuG`GkJlAkB^o@n@aAjCiE|A_CnHkLpBeDxC{FhEkKfBaFj@oCp@sEJ}@Pq@`AaCb@u@Za@dB_BjBgA~JgF~BwAxAcAvDgDfBiBtAgBdBaC~AeCxGuJvBkDjGcJnBmCjL{P`BuBbAgApAoAdBwAjGwE~H{F`CuBbC_CpCsChOcNrDoDt@o@vAyAjBeBfEcEfXmWbMeLdBaBrCeCpGgG`EiE~AqB|@}@pDoCtEaE|AyApDuCvA_AjEoB|Am@t]mLfE{AxAo@`B{@^UfBoAlH{F`EoDfOeMpCeCd@i@h@y@nDgGx@kBn@gBr@eChNci@f@}AtCyJhb@apAbFsNzCeIV}@vBmGbLsZjD_NvD}Of@cCbDeNbAcEd@}AVs@t@iB\\cAtAkD~Ne\\nOs\\nAmC|GcOL[|H}PzDuIrLmVzJgSbE}HlIuP^}@nAuFxBiMz@uF~@kFA_@TqA^cCA]vBgMPw@E]Dq@^wBFs@@i@Cm@SyAi@qACO?QB_@Re@\\YNG`@E|@Fb@FL?r@JPDhIr@hENvE^~ARtRjBnTzAlAJdEN`FAzAIpHu@~Ig@`EY~COxCAv@@`YrAdH`@tDFvRA`PQdBGrPuAjFQhDIxGAhFHhCFzG^pBPxGt@vTxCbCTpCPfN`@xFLxTn@bDH`BF|ALdRvB`QvBj@FvMdBb@JpDd@rF|@hBl@nDz@hDd@pALnBJ|@BfAAlHS~FQnEUtZ_A`e@Abw@M`MBlEJzBHz`@vBjGd@fPhBbDVhDLra@x@tD@rQCrSV|HDrGKpGCbOAvDH~FFhCJv@F`CZvFz@l@Ld@FtHfA~Ev@dGdAx@JnDh@pAL|FFtCIzAMjBUdCe@zHqBhGiBlI_CpHmBr@KhF{AdFaBnCkAfCyAxAcAlD{ClBsB|AqBvCoDnF_HpCiDfZm_@zCsDfBkBbB_Bx@}@bMwLd@i@hB_C`DoEnDuEz@oAzC}D|HoKv@aAlAqAd@a@rBwAfB_AfFeBfGmB|E_B~Ai@tB}@dAm@lByA|AcB^e@hM}S|Tq_@jAkBxEaI`BcD|A_E^kAbPij@xJ}ZlEoNrD}M\\wAfCcMVgA|B{KdKye@nIqd@~@sFn@_Dv@}E\\uCXsCTgDf@}FR{Cv@wHZuBd@oCb@uBvDiOb@uBlAmIlA_K`AeOFoF?oEG}EOuDi@uHw@sG[wBe@wCq@oDy@oDuAsFSu@q@cDMaA[eDIgB?}DBo@BwBV}FD}CHqEPiEB_DXsK?wCUgCa@sCk@kB_AgBmA_BeEyEq@_AcAsB[y@k@sBUqAKeBI{F_@uPOaNS}JUwCQuAm@iCw@yEWoBw@}Jk@}EU{Ae@yBe@qBoAkEw@wB}@uBaAsBaAeBeGwI{CaEmIeLmCoE}Pw[{@eBsA{CoAgDsBeIc@mCs@cFUyDUiH@{DVkGTaD~@wI`@oCTqA|BaK~@{C`B{ErMy[hGwPjFkNnA_ELsBJmAX_BZiAn@oBj@gAn@_AfB}MDs@@qBSiCu@}E_@{CAU@YFUh@g@d@MR?VBdAXt@BxBQx@m@RNpFaE`EuC`LsIlDeCzGeFrBsAhE_DN]v@o@dCkBnHkF|EgDbA}@pEcDnBaBtDeC~@c@b@GxFkEpDiC|AeAlAo@j@WdC{@rIyBxBq@fIwBt[{G`D{@~Bu@tD}AbB{@tBqAhGoEnKsJvKkKrCeCpIaGdOaLtB{A~I{Gp@g@hEaDd@c@jGqEjIsGdGgEtGaFrAy@tBeBx@w@t@}@j@_Ax@_Bp@cC|@uFJy@@e@n@gGV{DJwBB_EKcBEiGLcBX_BTy@Xu@zD_J\\u@dAiBfCyFj@s@t@gAnBwBjAcAvCmB`DcBbCwAxBcBl@k@dA}At@aB`@yALk@rF{[xB{M`BwI`A{Cv@iBvAiC`BuCpEoI~@aCj@mBbCuHtB{Gb@iB^wBrAuLv@qIX{HT}HPyMP}At@cD`CqHhCsHl@mBVsA^wCt@yIh@sFr@oGXyAp@gCpEeMn@kBpGwQ~@kD^wBlAgGt@wEpC{UV}ATeA\\sAnA_Eb@_Bx@}BfByCh@aA`EeHfA{B`ByCrGaNhBiDfBqD`BmC~AuBpB}Bv@o@vAeAdIaEf@]zG{DbBkAfCwBbAiArEiGjG}H~EmGlB}BbDuDlCuCdBcBd@i@pBqBdCaCpCqBpBkArDmBz@g@pBwAfA{@zKoJvE{D`B_B|@gAl@w@dEkHV]l@uAbAqCt@uC|A{G|CyLlBaHNa@dCqEp@oAt@kA|@kARSdBqAxBgB|J}GbBeAxEoD`BgAr@w@\\g@vCsDt@{@vBgDKGh@u@z@wB\\cA|@oDvAuGZaCfAuGHw@c@Au@Ku@Sa@OSGWOe@UcD{By@q@QOqAoB}BsC]_@u@o@SMc@SiCy@iAY_BUUA]KQCyE]qF[gHSm@EsA?yIN}FFYBkA@gBFeAJs@Cm@I_ASwCu@_E_Aq@QsJoBaK}Bm@M}@_@uAoBa@[g@UaDs@_BUs@QgB}@kAq@mGaEgEuB_Ag@yFcCy@c@wDaC}Ay@oBw@i@QiGiBoA]}BaAsAs@oKwGiEwBs@UqCqAaFoC_JqFw@_@_Ai@{AaAMG_Ai@gS{HcE}BsCqA}Bw@wB_Au@_@mCiA{JyEyImEkCgAqAc@w@[a@IQIaB[iDi@kE}@{Fw@aDs@_AYqAWiCa@iD_@e@A{@Ma@Ie@GwAYeEw@qAKwCGo@?oH[oAQiCk@eDc@qC[_BKuBF_BR}Gj@s@HeAFuAH]?iAIcAWu@[{HgCkDoAmEkB}EkB{@a@cHqCiCw@aD{@c@IgF}AqBq@s@SyAYcGy@{AOcF[sDM{CYyB{@q@a@aBy@cAk@_BeAc@][_@KWK_@Wo@WYMIiBu@k@Y{@U}@EmBA"
+    }
+  ],
+  "meta": {
+    "userId": "lobopranayk9@gmail.com",
+    "customerId": "cus_IVPHCmsN2ehM4O",
+    "tx": 3,
+    "type": "general",
+    "client": "api",
+    "source": "HERE"
+  }
+}
